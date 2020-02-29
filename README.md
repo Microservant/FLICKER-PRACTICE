@@ -8,3 +8,5 @@ Go to your [GitHub Settings](https://github.com/settings/tokens) and generate
 a personal access token with at least `gist` scope. If you intend to use more
 of the underlying `gh.el` library, it's recommended you also add the `user` and
 `repo` scopes.
+
+Next run:
