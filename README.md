@@ -18,3 +18,5 @@ git config --global github.oauth-token <your-personal-access-token-with-gist-sco
 
 News
 ====
+
+What's new in 1.4.0 ?
