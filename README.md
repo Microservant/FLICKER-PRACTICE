@@ -24,3 +24,5 @@ What's new in 1.4.0 ?
 
 * support #tags in gist description
 * support limiting display by tags, visibility
+
+What's new in 1.3.0 ?
