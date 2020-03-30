@@ -27,3 +27,5 @@ What's new in 1.4.0 ?
 
 What's new in 1.3.0 ?
 ---------------------
+
+* support listing another user's gists
