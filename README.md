@@ -33,3 +33,4 @@ What's new in 1.3.0 ?
 * optionally ask for description at gist creation time
 
 What's new in 1.2.0 ?
+---------------------
