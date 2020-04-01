@@ -30,3 +30,4 @@ What's new in 1.3.0 ?
 
 * support listing another user's gists
 * more keybindings for (un)starring, forking gists
+* optionally ask for description at gist creation time
