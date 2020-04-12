@@ -34,3 +34,5 @@ What's new in 1.3.0 ?
 
 What's new in 1.2.0 ?
 ---------------------
+
+* make gist list appearance customizable
