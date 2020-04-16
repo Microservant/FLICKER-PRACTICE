@@ -41,3 +41,4 @@ What's new in 1.2.0 ?
 * add ability to open current gist in browser
 
 What's new in 1.1.0 ?
+---------------------
