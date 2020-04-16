@@ -38,3 +38,6 @@ What's new in 1.2.0 ?
 * make gist list appearance customizable
 * more robust mode detection
 * add ability to open gist without changing focus
+* add ability to open current gist in browser
+
+What's new in 1.1.0 ?
