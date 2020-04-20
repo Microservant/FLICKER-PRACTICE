@@ -42,3 +42,5 @@ What's new in 1.2.0 ?
 
 What's new in 1.1.0 ?
 ---------------------
+
+* support for multiple profiles (e.g. github.com and Github Enterprise instance)
