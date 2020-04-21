@@ -45,3 +45,4 @@ What's new in 1.1.0 ?
 
 * support for multiple profiles (e.g. github.com and Github Enterprise instance)
 * remove calls to deprecated gh.el APIs
+* support for background-reloading of gist list
