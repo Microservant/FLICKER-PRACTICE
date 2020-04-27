@@ -48,3 +48,4 @@ What's new in 1.1.0 ?
 * support for background-reloading of gist list
 
 What's new in 1.0 ?
+-------------------
