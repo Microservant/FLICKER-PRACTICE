@@ -55,3 +55,5 @@ What's new in 1.0 ?
 * improved gist-list buffer, based on tabulated-list.el (same codebase as package.el)
     New keybindings:
     * `g` : reload the gist list from server
+    * `e` : edit current gist description
+    * `k` : delete current gist
