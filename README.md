@@ -52,3 +52,5 @@ What's new in 1.0 ?
 
 * gist.el now maintains a local cache so as to not go to the gist server every now and then.
 * multi-files gist support (indicated by a '+' in the gist list)
+* improved gist-list buffer, based on tabulated-list.el (same codebase as package.el)
+    New keybindings:
