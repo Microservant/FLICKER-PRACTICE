@@ -54,3 +54,4 @@ What's new in 1.0 ?
 * multi-files gist support (indicated by a '+' in the gist list)
 * improved gist-list buffer, based on tabulated-list.el (same codebase as package.el)
     New keybindings:
+    * `g` : reload the gist list from server
