@@ -57,3 +57,4 @@ What's new in 1.0 ?
     * `g` : reload the gist list from server
     * `e` : edit current gist description
     * `k` : delete current gist
+    * `+` : add a file to the current gist
