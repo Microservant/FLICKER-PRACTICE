@@ -58,3 +58,5 @@ What's new in 1.0 ?
     * `e` : edit current gist description
     * `k` : delete current gist
     * `+` : add a file to the current gist
+    * `-` : remove a file from the current gist
+    * `y` : print current gist url
