@@ -62,3 +62,4 @@ What's new in 1.0 ?
     * `y` : print current gist url
     * `b` : browse current gist
     * `*` : star gist
+    * `^` : unstar gist
