@@ -63,3 +63,4 @@ What's new in 1.0 ?
     * `b` : browse current gist
     * `*` : star gist
     * `^` : unstar gist
+    * `f` : fork gist
