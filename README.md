@@ -64,3 +64,6 @@ What's new in 1.0 ?
     * `*` : star gist
     * `^` : unstar gist
     * `f` : fork gist
+* in-place edition. While viewing a gist file buffer, you can:
+    * `C-x C-s` : save a new version of the gist
+    * `C-x C-w` : rename some file
