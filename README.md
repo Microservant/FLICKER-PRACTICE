@@ -71,3 +71,4 @@ What's new in 1.0 ?
     * `@` : make a gist out of marked files (with a prefix, make it private)
 
 Install
+=======
