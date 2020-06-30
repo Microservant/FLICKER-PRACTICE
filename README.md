@@ -69,3 +69,5 @@ What's new in 1.0 ?
     * `C-x C-w` : rename some file
 * dired integration. From a dired buffer, you can:
     * `@` : make a gist out of marked files (with a prefix, make it private)
+
+Install
