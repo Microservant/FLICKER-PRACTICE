@@ -67,3 +67,4 @@ What's new in 1.0 ?
 * in-place edition. While viewing a gist file buffer, you can:
     * `C-x C-s` : save a new version of the gist
     * `C-x C-w` : rename some file
+* dired integration. From a dired buffer, you can:
