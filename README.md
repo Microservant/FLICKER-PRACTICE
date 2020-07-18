@@ -72,3 +72,5 @@ What's new in 1.0 ?
 
 Install
 =======
+
+Dependencies
