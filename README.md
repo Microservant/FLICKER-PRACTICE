@@ -75,3 +75,5 @@ Install
 
 Dependencies
 ------------
+
+gist.el depends on a number of other modules, that you'll need to install, either manually or by way of Emacs package manager
