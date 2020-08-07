@@ -79,3 +79,5 @@ Dependencies
 gist.el depends on a number of other modules, that you'll need to install, either manually or by way of Emacs package manager
 
 * tabulated-list.el
+  built-in for emacs 24. If you're using emacs 23, you can find a backport here: https://github.com/sigma/tabulated-list.el
+* gh.el
