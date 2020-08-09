@@ -82,3 +82,4 @@ gist.el depends on a number of other modules, that you'll need to install, eithe
   built-in for emacs 24. If you're using emacs 23, you can find a backport here: https://github.com/sigma/tabulated-list.el
 * gh.el
   GitHub client library. Install from there: https://github.com/sigma/gh.el
+* pcache.el
