@@ -84,3 +84,4 @@ gist.el depends on a number of other modules, that you'll need to install, eithe
   GitHub client library. Install from there: https://github.com/sigma/gh.el
 * pcache.el
   Really a gh.el dependency. Install from there: https://github.com/sigma/pcache
+* logito.el
