@@ -88,3 +88,4 @@ gist.el depends on a number of other modules, that you'll need to install, eithe
   Really a gh.el dependency. Install from there: https://github.com/sigma/logito
 
 Install gist.el from marmalade (recommended)
+--------------------------------------------
