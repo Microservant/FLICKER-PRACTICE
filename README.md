@@ -89,3 +89,5 @@ gist.el depends on a number of other modules, that you'll need to install, eithe
 
 Install gist.el from marmalade (recommended)
 --------------------------------------------
+
+In that scenario, you don't have to deal with the above dependencies yourself.
