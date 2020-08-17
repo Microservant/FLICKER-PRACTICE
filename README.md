@@ -91,3 +91,5 @@ Install gist.el from marmalade (recommended)
 --------------------------------------------
 
 In that scenario, you don't have to deal with the above dependencies yourself.
+
+For emacs 24, first make sure http://marmalade-repo.org/ is properly configured. Then
