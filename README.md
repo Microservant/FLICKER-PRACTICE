@@ -100,3 +100,4 @@ For emacs 23, you'll need to install a version of package.el first. Some bootstr
 Then proceed as for emacs 24. You might get some compilation errors, but the package should be operational in the end.
 
 Install gist.el from git
+------------------------
