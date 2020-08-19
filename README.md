@@ -101,3 +101,5 @@ Then proceed as for emacs 24. You might get some compilation errors, but the pac
 
 Install gist.el from git
 ------------------------
+
+After installing the required dependencies, proceed with:
