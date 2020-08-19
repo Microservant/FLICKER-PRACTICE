@@ -98,3 +98,5 @@ For emacs 24, first make sure http://marmalade-repo.org/ is properly configured.
 
 For emacs 23, you'll need to install a version of package.el first. Some bootstrap code is available there: https://gist.github.com/1884169
 Then proceed as for emacs 24. You might get some compilation errors, but the package should be operational in the end.
+
+Install gist.el from git
