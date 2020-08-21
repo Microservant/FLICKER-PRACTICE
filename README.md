@@ -103,3 +103,5 @@ Install gist.el from git
 ------------------------
 
 After installing the required dependencies, proceed with:
+
+    $ cd ~/.emacs.d/vendor
