@@ -106,3 +106,5 @@ After installing the required dependencies, proceed with:
 
     $ cd ~/.emacs.d/vendor
     $ git clone git://github.com/defunkt/gist.el.git
+
+In your emacs config:
