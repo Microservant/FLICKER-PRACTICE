@@ -108,3 +108,6 @@ After installing the required dependencies, proceed with:
     $ git clone git://github.com/defunkt/gist.el.git
 
 In your emacs config:
+
+    (add-to-list 'load-path "~/.emacs.d/vendor/gist.el")
+    (require 'gist)
