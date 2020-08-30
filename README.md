@@ -111,3 +111,6 @@ In your emacs config:
 
     (add-to-list 'load-path "~/.emacs.d/vendor/gist.el")
     (require 'gist)
+
+Getting started
+===============
