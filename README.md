@@ -114,3 +114,7 @@ In your emacs config:
 
 Getting started
 ===============
+
+When you first run a gist.el operation, you might be asked for your GitHub username and password. The username will be stored for future use, and a OAuth token will be stored in place of your password.
+
+To make gist.el forget about those information, just remove them from your ~/.gitconfig file
