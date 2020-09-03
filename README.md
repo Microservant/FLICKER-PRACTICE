@@ -120,3 +120,4 @@ When you first run a gist.el operation, you might be asked for your GitHub usern
 To make gist.el forget about those information, just remove them from your ~/.gitconfig file
 
 Functions
+=========
