@@ -121,3 +121,5 @@ To make gist.el forget about those information, just remove them from your ~/.gi
 
 Functions
 =========
+
+    gist-list - Lists your gists in a new buffer. Use arrow keys
