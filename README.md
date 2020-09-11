@@ -132,3 +132,5 @@ Functions
 
     gist-buffer - Copies Gist URL into the kill ring.
     With a prefix argument, makes a private gist.
+
+    gist-buffer-private - Explicitly create a private gist.
