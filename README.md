@@ -127,3 +127,5 @@ Functions
 
     gist-region - Copies Gist URL into the kill ring.
     With a prefix argument, makes a private gist.
+
+    gist-region-private - Explicitly create a private gist.
