@@ -141,3 +141,4 @@ Functions
     With a prefix argument, makes a private paste.
 
     gist-region-or-buffer-private - Explicitly create a gist from the
+    region or buffer.
