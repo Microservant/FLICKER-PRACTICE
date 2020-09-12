@@ -137,3 +137,4 @@ Functions
 
     gist-region-or-buffer - Post either the current region, or if mark
     is not set, the current buffer as a new paste at gist.github.com .
+    Copies the URL into the kill ring.
