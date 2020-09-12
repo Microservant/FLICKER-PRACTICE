@@ -142,3 +142,5 @@ Functions
 
     gist-region-or-buffer-private - Explicitly create a gist from the
     region or buffer.
+
+Config
