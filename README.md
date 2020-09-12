@@ -139,3 +139,5 @@ Functions
     is not set, the current buffer as a new paste at gist.github.com .
     Copies the URL into the kill ring.
     With a prefix argument, makes a private paste.
+
+    gist-region-or-buffer-private - Explicitly create a gist from the
