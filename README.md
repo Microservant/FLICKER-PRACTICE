@@ -134,3 +134,5 @@ Functions
     With a prefix argument, makes a private gist.
 
     gist-buffer-private - Explicitly create a private gist.
+
+    gist-region-or-buffer - Post either the current region, or if mark
