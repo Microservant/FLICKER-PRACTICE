@@ -148,3 +148,5 @@ Config
 
 Set `gist-view-gist` to non-nil if you want to view your Gist using
 `browse-url` after it is created.
+
+Meta
