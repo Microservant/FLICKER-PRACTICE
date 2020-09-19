@@ -154,3 +154,4 @@ Meta
 
 * Code: `git clone git://github.com/defunkt/gist.el.git`
 * Home: <http://github.com/defunkt/gist.el>
+* Bugs: <http://github.com/defunkt/gist.el/issues>
