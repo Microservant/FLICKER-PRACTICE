@@ -151,3 +151,6 @@ Set `gist-view-gist` to non-nil if you want to view your Gist using
 
 Meta
 ====
+
+* Code: `git clone git://github.com/defunkt/gist.el.git`
+* Home: <http://github.com/defunkt/gist.el>
