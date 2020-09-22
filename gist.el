@@ -5,3 +5,5 @@
 ;; Original Author: Christian Neukirchen <chneukirchen@gmail.com>
 ;; Contributors: Chris Wanstrath <chris@ozmm.org>
 ;;               Will Farrington <wcfarrington@gmail.com>
+;;               Michael Ivey
+;;               Phil Hagelberg
