@@ -9,3 +9,4 @@
 ;;               Phil Hagelberg
 ;;               Dan McKinley
 ;;               Marcelo Muñoz Araya <ma.munoz.araya@gmail.com>
+;; Version: 1.4.0
