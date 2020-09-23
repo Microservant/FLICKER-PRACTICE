@@ -15,3 +15,5 @@
 ;; Homepage: https://github.com/defunkt/gist.el
 
 ;; This file is NOT part of GNU Emacs.
+
+;; This is free software; you can redistribute it and/or modify it under
