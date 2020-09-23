@@ -13,3 +13,5 @@
 ;; Package-Requires: ((emacs "24.1") (gh "0.10.0"))
 ;; Keywords: tools
 ;; Homepage: https://github.com/defunkt/gist.el
+
+;; This file is NOT part of GNU Emacs.
