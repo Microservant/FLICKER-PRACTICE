@@ -11,3 +11,4 @@
 ;;               Marcelo Muñoz Araya <ma.munoz.araya@gmail.com>
 ;; Version: 1.4.0
 ;; Package-Requires: ((emacs "24.1") (gh "0.10.0"))
+;; Keywords: tools
