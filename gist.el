@@ -12,3 +12,4 @@
 ;; Version: 1.4.0
 ;; Package-Requires: ((emacs "24.1") (gh "0.10.0"))
 ;; Keywords: tools
+;; Homepage: https://github.com/defunkt/gist.el
