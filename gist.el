@@ -7,3 +7,5 @@
 ;;               Will Farrington <wcfarrington@gmail.com>
 ;;               Michael Ivey
 ;;               Phil Hagelberg
+;;               Dan McKinley
+;;               Marcelo Muñoz Araya <ma.munoz.araya@gmail.com>
