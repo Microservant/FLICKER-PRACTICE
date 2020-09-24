@@ -21,3 +21,4 @@
 ;; Software Foundation; either version 2, or (at your option) any later
 ;; version.
 ;;
+;; This is distributed in the hope that it will be useful, but WITHOUT
