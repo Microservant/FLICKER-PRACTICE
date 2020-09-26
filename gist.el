@@ -32,3 +32,5 @@
 ;; MA 02111-1307, USA.
 
 ;;; Commentary:
+
+;; An Emacs interface for managing gists (http://gist.github.com).
