@@ -43,3 +43,5 @@
 (require 'eieio)
 (require 'eieio-base)
 (require 'timezone)
+
+(require 'gh-api)
