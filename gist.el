@@ -41,3 +41,4 @@
   (require 'cl))
 
 (require 'eieio)
+(require 'eieio-base)
