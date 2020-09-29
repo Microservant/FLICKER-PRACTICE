@@ -45,3 +45,4 @@
 (require 'timezone)
 
 (require 'gh-api)
+(require 'gh-gist)
