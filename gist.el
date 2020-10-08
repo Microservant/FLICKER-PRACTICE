@@ -47,3 +47,5 @@
 (require 'gh-api)
 (require 'gh-gist)
 (require 'gh-profile)
+
+(require 'tabulated-list)
