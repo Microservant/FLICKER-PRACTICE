@@ -51,3 +51,4 @@
 (require 'tabulated-list)
 
 (defgroup gist nil
+  "Interface to GitHub's Gist."
