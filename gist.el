@@ -49,3 +49,5 @@
 (require 'gh-profile)
 
 (require 'tabulated-list)
+
+(defgroup gist nil
