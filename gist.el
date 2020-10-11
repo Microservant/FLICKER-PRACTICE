@@ -52,3 +52,4 @@
 
 (defgroup gist nil
   "Interface to GitHub's Gist."
+  :group 'applications)
