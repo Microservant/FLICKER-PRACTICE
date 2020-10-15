@@ -59,3 +59,4 @@
                               (visibility "Visibility" 10 nil
                                           (lambda (public)
                                             (or (and public "public")
+                                                "private")))
