@@ -61,3 +61,4 @@
                                             (or (and public "public")
                                                 "private")))
                               (description "Description" 0 nil identity))
+  "Format for gist list."
