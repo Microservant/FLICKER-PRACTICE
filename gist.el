@@ -53,3 +53,5 @@
 (defgroup gist nil
   "Interface to GitHub's Gist."
   :group 'applications)
+
+(defcustom gist-list-format '((id "Id" 10 nil identity)
