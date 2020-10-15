@@ -56,3 +56,4 @@
 
 (defcustom gist-list-format '((id "Id" 10 nil identity)
                               (created "Created" 20 nil "%D %R")
+                              (visibility "Visibility" 10 nil
