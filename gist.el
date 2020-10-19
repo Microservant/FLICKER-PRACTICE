@@ -63,3 +63,4 @@
                               (description "Description" 0 nil identity))
   "Format for gist list."
   :type '(alist :key-type
+          (choice
