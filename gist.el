@@ -64,3 +64,4 @@
   "Format for gist list."
   :type '(alist :key-type
           (choice
+           (const :tag "Id" id)
