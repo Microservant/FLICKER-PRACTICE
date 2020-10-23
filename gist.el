@@ -65,3 +65,4 @@
   :type '(alist :key-type
           (choice
            (const :tag "Id" id)
+           (const :tag "Creation date" created)
