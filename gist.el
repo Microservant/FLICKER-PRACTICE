@@ -66,3 +66,5 @@
           (choice
            (const :tag "Id" id)
            (const :tag "Creation date" created)
+           (const :tag "Visibility" visibility)
+           (const :tag "Description" description)
