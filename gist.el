@@ -69,3 +69,4 @@
            (const :tag "Visibility" visibility)
            (const :tag "Description" description)
            (const :tag "Files" files))
+          :value-type
