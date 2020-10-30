@@ -70,3 +70,4 @@
            (const :tag "Description" description)
            (const :tag "Files" files))
           :value-type
+          (list
