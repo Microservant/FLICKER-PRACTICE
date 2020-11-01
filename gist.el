@@ -71,3 +71,4 @@
            (const :tag "Files" files))
           :value-type
           (list
+           (string :tag "Label")
