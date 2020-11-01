@@ -73,3 +73,4 @@
           (list
            (string :tag "Label")
            (integer :tag "Field length")
+           (boolean :tag "Sortable")
