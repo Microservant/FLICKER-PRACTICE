@@ -74,3 +74,5 @@
            (string :tag "Label")
            (integer :tag "Field length")
            (boolean :tag "Sortable")
+           (choice
+            (string :tag "Format")
