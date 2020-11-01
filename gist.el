@@ -72,3 +72,4 @@
           :value-type
           (list
            (string :tag "Label")
+           (integer :tag "Field length")
