@@ -76,3 +76,4 @@
            (boolean :tag "Sortable")
            (choice
             (string :tag "Format")
+            (function :tag "Formatter"))))
