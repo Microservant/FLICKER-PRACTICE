@@ -77,3 +77,4 @@
            (choice
             (string :tag "Format")
             (function :tag "Formatter"))))
+  :group 'gist)
