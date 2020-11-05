@@ -82,3 +82,4 @@
 (defcustom gist-view-gist nil
   "If non-nil, view gists with `browse-url' after posting."
   :type 'boolean
+  :group 'gist)
