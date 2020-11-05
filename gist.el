@@ -78,3 +78,5 @@
             (string :tag "Format")
             (function :tag "Formatter"))))
   :group 'gist)
+
+(defcustom gist-view-gist nil
