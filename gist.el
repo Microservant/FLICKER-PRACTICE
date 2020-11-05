@@ -85,3 +85,5 @@
   :group 'gist)
 
 (defcustom gist-multiple-files-mark "+"
+  "Symbol to use to indicate gists with multiple files."
+  :type 'string
