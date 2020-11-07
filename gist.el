@@ -88,3 +88,6 @@
   "Symbol to use to indicate gists with multiple files."
   :type 'string
   :group 'gist)
+
+(defcustom gist-ask-for-description nil
+  "If non-nil, prompt for description before submitting gist."
