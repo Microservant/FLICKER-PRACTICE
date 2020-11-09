@@ -91,3 +91,4 @@
 
 (defcustom gist-ask-for-description nil
   "If non-nil, prompt for description before submitting gist."
+  :type 'boolean
