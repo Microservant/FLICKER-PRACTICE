@@ -93,3 +93,5 @@
   "If non-nil, prompt for description before submitting gist."
   :type 'boolean
   :group 'gist)
+
+(defcustom gist-ask-for-filename nil
