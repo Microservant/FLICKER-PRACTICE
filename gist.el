@@ -97,3 +97,4 @@
 (defcustom gist-ask-for-filename nil
   "If non-nil, prompt for change default file name before submitting gist."
   :type 'boolean
+  :group 'gist)
