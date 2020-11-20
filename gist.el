@@ -107,3 +107,4 @@ created gist."
   :group 'gist)
 
 (defcustom gist-supported-modes-alist '((action-script-mode . "as")
+                                        (c-mode . "c")
