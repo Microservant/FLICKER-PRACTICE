@@ -98,3 +98,6 @@
   "If non-nil, prompt for change default file name before submitting gist."
   :type 'boolean
   :group 'gist)
+
+(defcustom gist-created-fmt "Paste created: %s"
+  "Format for the message that gets shown upon successful gist
