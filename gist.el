@@ -105,3 +105,5 @@ creation.  Must contain a single %s for the location of the newly
 created gist."
   :type 'string
   :group 'gist)
+
+(defcustom gist-supported-modes-alist '((action-script-mode . "as")
