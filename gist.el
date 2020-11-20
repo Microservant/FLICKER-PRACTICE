@@ -108,3 +108,5 @@ created gist."
 
 (defcustom gist-supported-modes-alist '((action-script-mode . "as")
                                         (c-mode . "c")
+                                        (c++-mode . "cpp")
+                                        (clojure-mode . "clj")
