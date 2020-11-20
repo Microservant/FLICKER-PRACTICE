@@ -103,3 +103,4 @@
   "Format for the message that gets shown upon successful gist
 creation.  Must contain a single %s for the location of the newly
 created gist."
+  :type 'string
