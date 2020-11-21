@@ -110,3 +110,4 @@ created gist."
                                         (c-mode . "c")
                                         (c++-mode . "cpp")
                                         (clojure-mode . "clj")
+                                        (common-lisp-mode . "lisp")
