@@ -111,3 +111,4 @@ created gist."
                                         (c++-mode . "cpp")
                                         (clojure-mode . "clj")
                                         (common-lisp-mode . "lisp")
+                                        (css-mode . "css")
