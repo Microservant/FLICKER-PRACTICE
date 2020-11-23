@@ -112,3 +112,4 @@ created gist."
                                         (clojure-mode . "clj")
                                         (common-lisp-mode . "lisp")
                                         (css-mode . "css")
+                                        (diff-mode . "diff")
