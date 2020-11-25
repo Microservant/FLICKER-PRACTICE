@@ -114,3 +114,4 @@ created gist."
                                         (css-mode . "css")
                                         (diff-mode . "diff")
                                         (emacs-lisp-mode . "el")
+                                        (lisp-interaction-mode . "el")
