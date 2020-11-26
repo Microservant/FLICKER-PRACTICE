@@ -119,3 +119,4 @@ created gist."
                                         (haskell-mode . "hs")
                                         (html-mode . "html")
                                         (io-mode . "io")
+                                        (java-mode . "java")
