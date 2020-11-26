@@ -118,3 +118,4 @@ created gist."
                                         (erlang-mode . "erl")
                                         (haskell-mode . "hs")
                                         (html-mode . "html")
+                                        (io-mode . "io")
