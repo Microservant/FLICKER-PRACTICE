@@ -115,3 +115,5 @@ created gist."
                                         (diff-mode . "diff")
                                         (emacs-lisp-mode . "el")
                                         (lisp-interaction-mode . "el")
+                                        (erlang-mode . "erl")
+                                        (haskell-mode . "hs")
