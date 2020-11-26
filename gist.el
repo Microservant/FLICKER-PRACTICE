@@ -117,3 +117,4 @@ created gist."
                                         (lisp-interaction-mode . "el")
                                         (erlang-mode . "erl")
                                         (haskell-mode . "hs")
+                                        (html-mode . "html")
