@@ -120,3 +120,5 @@ created gist."
                                         (html-mode . "html")
                                         (io-mode . "io")
                                         (java-mode . "java")
+                                        (javascript-mode . "js")
+                                        (jde-mode . "java")
