@@ -122,3 +122,4 @@ created gist."
                                         (java-mode . "java")
                                         (javascript-mode . "js")
                                         (jde-mode . "java")
+                                        (js2-mode . "js")
