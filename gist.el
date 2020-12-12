@@ -123,3 +123,4 @@ created gist."
                                         (javascript-mode . "js")
                                         (jde-mode . "java")
                                         (js2-mode . "js")
+                                        (lua-mode . "lua")
