@@ -124,3 +124,4 @@ created gist."
                                         (jde-mode . "java")
                                         (js2-mode . "js")
                                         (lua-mode . "lua")
+                                        (ocaml-mode . "ml")
