@@ -125,3 +125,4 @@ created gist."
                                         (js2-mode . "js")
                                         (lua-mode . "lua")
                                         (ocaml-mode . "ml")
+                                        (objective-c-mode . "m")
