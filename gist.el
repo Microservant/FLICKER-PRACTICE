@@ -127,3 +127,4 @@ created gist."
                                         (ocaml-mode . "ml")
                                         (objective-c-mode . "m")
                                         (perl-mode . "pl")
+                                        (php-mode . "php")
