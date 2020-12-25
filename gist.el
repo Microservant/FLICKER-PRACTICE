@@ -130,3 +130,4 @@ created gist."
                                         (php-mode . "php")
                                         (python-mode . "py")
                                         (ruby-mode . "rb")
+                                        (text-mode . "txt")
