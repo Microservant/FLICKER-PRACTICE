@@ -128,3 +128,5 @@ created gist."
                                         (objective-c-mode . "m")
                                         (perl-mode . "pl")
                                         (php-mode . "php")
+                                        (python-mode . "py")
+                                        (ruby-mode . "rb")
