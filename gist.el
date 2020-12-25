@@ -126,3 +126,4 @@ created gist."
                                         (lua-mode . "lua")
                                         (ocaml-mode . "ml")
                                         (objective-c-mode . "m")
+                                        (perl-mode . "pl")
