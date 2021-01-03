@@ -131,3 +131,4 @@ created gist."
                                         (python-mode . "py")
                                         (ruby-mode . "rb")
                                         (text-mode . "txt")
+                                        (scala-mode . "scala")
