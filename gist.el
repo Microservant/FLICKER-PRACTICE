@@ -132,3 +132,4 @@ created gist."
                                         (ruby-mode . "rb")
                                         (text-mode . "txt")
                                         (scala-mode . "scala")
+                                        (sql-mode . "sql")
