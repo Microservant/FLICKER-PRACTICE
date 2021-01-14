@@ -135,3 +135,4 @@ created gist."
                                         (sql-mode . "sql")
                                         (scheme-mode . "scm")
                                         (smalltalk-mode . "st")
+                                        (sh-mode . "sh")
