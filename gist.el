@@ -137,3 +137,4 @@ created gist."
                                         (smalltalk-mode . "st")
                                         (sh-mode . "sh")
                                         (tcl-mode . "tcl")
+                                        (tex-mode . "tex")
