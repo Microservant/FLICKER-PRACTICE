@@ -138,3 +138,4 @@ created gist."
                                         (sh-mode . "sh")
                                         (tcl-mode . "tcl")
                                         (tex-mode . "tex")
+                                        (xml-mode . "xml"))
