@@ -140,3 +140,4 @@ created gist."
                                         (tex-mode . "tex")
                                         (xml-mode . "xml"))
   "Mapping between major-modes and file extensions.
+Used to generate filenames for created gists, and to select
