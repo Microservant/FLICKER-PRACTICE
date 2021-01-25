@@ -139,3 +139,4 @@ created gist."
                                         (tcl-mode . "tcl")
                                         (tex-mode . "tex")
                                         (xml-mode . "xml"))
+  "Mapping between major-modes and file extensions.
