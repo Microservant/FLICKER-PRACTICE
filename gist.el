@@ -143,3 +143,4 @@ created gist."
 Used to generate filenames for created gists, and to select
 appropriate modes from fetched gist files (based on filenames)."
   :type '(alist :key-type   (symbol :tag "Mode")
+                :value-type (string :tag "Extension")))
