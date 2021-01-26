@@ -146,3 +146,5 @@ appropriate modes from fetched gist files (based on filenames)."
                 :value-type (string :tag "Extension")))
 
 (defvar gist-list-db nil)
+(unless (hash-table-p gist-list-db)
+  (setq gist-list-db (make-hash-table :test 'equal)))
