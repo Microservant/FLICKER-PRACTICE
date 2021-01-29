@@ -156,3 +156,4 @@ appropriate modes from fetched gist files (based on filenames)."
 (defvar gist-list-limits nil)
 
 (defvar gist-id nil)
+(make-variable-buffer-local 'gist-id)
