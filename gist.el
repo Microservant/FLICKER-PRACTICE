@@ -154,3 +154,5 @@ appropriate modes from fetched gist files (based on filenames)."
   (setq gist-list-db-by-user (make-hash-table :test 'equal)))
 
 (defvar gist-list-limits nil)
+
+(defvar gist-id nil)
