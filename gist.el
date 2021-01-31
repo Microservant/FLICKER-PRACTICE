@@ -162,3 +162,5 @@ appropriate modes from fetched gist files (based on filenames)."
 (make-variable-buffer-local 'gist-filename)
 
 (defvar gist-user-history nil "History list for gist-list-user.")
+
+(defvar gist-list-buffer-user nil "Username for this gist buffer.")
