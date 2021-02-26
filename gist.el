@@ -166,3 +166,5 @@ appropriate modes from fetched gist files (based on filenames)."
 (defvar gist-list-buffer-user nil "Username for this gist buffer.")
 (make-variable-buffer-local 'gist-list-buffer-user)
 (put 'gist-list-buffer-user 'permanent-local t)
+
+(defun gist-get-api (&optional sync)
