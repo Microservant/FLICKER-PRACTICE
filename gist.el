@@ -173,3 +173,4 @@ appropriate modes from fetched gist files (based on filenames)."
     (make-instance 'gh-gist-api :sync sync :cache t :num-retries 1)))
 
 (defun gist-internal-new (files &optional private description callback)
+  (let* ((api (gist-get-api))
