@@ -171,3 +171,5 @@ appropriate modes from fetched gist files (based on filenames)."
   (let ((gh-profile-current-profile
          (or gh-profile-current-profile (gh-profile-completing-read))))
     (make-instance 'gh-gist-api :sync sync :cache t :num-retries 1)))
+
+(defun gist-internal-new (files &optional private description callback)
