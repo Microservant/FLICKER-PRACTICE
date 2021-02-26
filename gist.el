@@ -174,3 +174,5 @@ appropriate modes from fetched gist files (based on filenames)."
 
 (defun gist-internal-new (files &optional private description callback)
   (let* ((api (gist-get-api))
+         (gist (make-instance 'gh-gist-gist-stub
+                              :public (or (not private) json-false)
