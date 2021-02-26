@@ -168,3 +168,4 @@ appropriate modes from fetched gist files (based on filenames)."
 (put 'gist-list-buffer-user 'permanent-local t)
 
 (defun gist-get-api (&optional sync)
+  (let ((gh-profile-current-profile
