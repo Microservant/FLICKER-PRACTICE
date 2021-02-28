@@ -177,3 +177,4 @@ appropriate modes from fetched gist files (based on filenames)."
          (gist (make-instance 'gh-gist-gist-stub
                               :public (or (not private) json-false)
                               :description (or description "")
+                              :files files))
