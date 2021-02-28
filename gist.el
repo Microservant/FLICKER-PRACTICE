@@ -178,3 +178,4 @@ appropriate modes from fetched gist files (based on filenames)."
                               :public (or (not private) json-false)
                               :description (or description "")
                               :files files))
+         (resp (gh-gist-new api gist)))
