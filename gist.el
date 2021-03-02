@@ -179,3 +179,4 @@ appropriate modes from fetched gist files (based on filenames)."
                               :description (or description "")
                               :files files))
          (resp (gh-gist-new api gist)))
+    (gh-url-add-response-callback
