@@ -181,3 +181,5 @@ appropriate modes from fetched gist files (based on filenames)."
          (resp (gh-gist-new api gist)))
     (gh-url-add-response-callback
      resp
+     (lexical-let ((profile (oref api :profile))
+                   (cb callback))
