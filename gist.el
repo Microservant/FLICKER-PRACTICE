@@ -183,3 +183,5 @@ appropriate modes from fetched gist files (based on filenames)."
      resp
      (lexical-let ((profile (oref api :profile))
                    (cb callback))
+       (lambda (gist)
+         (let ((gh-profile-current-profile profile))
