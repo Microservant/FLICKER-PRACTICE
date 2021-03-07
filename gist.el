@@ -190,3 +190,6 @@ appropriate modes from fetched gist files (based on filenames)."
 (defun gist-ask-for-description-maybe ()
   (when gist-ask-for-description
     (read-from-minibuffer "Gist description: ")))
+
+(defun gist-ask-for-filename-maybe (fname)
+  (if gist-ask-for-filename
