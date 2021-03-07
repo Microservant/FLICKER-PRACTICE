@@ -193,3 +193,4 @@ appropriate modes from fetched gist files (based on filenames)."
 
 (defun gist-ask-for-filename-maybe (fname)
   (if gist-ask-for-filename
+      (read-string (format "File name (%s): " fname) nil nil fname)
