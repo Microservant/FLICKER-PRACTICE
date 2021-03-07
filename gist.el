@@ -185,3 +185,4 @@ appropriate modes from fetched gist files (based on filenames)."
                    (cb callback))
        (lambda (gist)
          (let ((gh-profile-current-profile profile))
+           (funcall (or cb 'gist-created-callback) gist)))))))
