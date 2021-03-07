@@ -195,3 +195,5 @@ appropriate modes from fetched gist files (based on filenames)."
   (if gist-ask-for-filename
       (read-string (format "File name (%s): " fname) nil nil fname)
     fname))
+
+;;;###autoload
