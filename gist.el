@@ -186,3 +186,7 @@ appropriate modes from fetched gist files (based on filenames)."
        (lambda (gist)
          (let ((gh-profile-current-profile profile))
            (funcall (or cb 'gist-created-callback) gist)))))))
+
+(defun gist-ask-for-description-maybe ()
+  (when gist-ask-for-description
+    (read-from-minibuffer "Gist description: ")))
