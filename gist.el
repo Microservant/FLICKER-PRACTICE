@@ -197,3 +197,4 @@ appropriate modes from fetched gist files (based on filenames)."
     fname))
 
 ;;;###autoload
+(defun gist-region (begin end &optional private callback)
