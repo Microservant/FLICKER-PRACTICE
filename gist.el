@@ -199,3 +199,4 @@ appropriate modes from fetched gist files (based on filenames)."
 ;;;###autoload
 (defun gist-region (begin end &optional private callback)
   "Post the current region as a new paste at gist.github.com
+Copies the URL into the kill ring.
