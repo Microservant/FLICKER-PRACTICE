@@ -203,3 +203,4 @@ Copies the URL into the kill ring.
 
 With a prefix argument, makes a private paste."
   (interactive "r\nP")
+  (let* ((file (or (buffer-file-name) (buffer-name)))
