@@ -202,3 +202,4 @@ appropriate modes from fetched gist files (based on filenames)."
 Copies the URL into the kill ring.
 
 With a prefix argument, makes a private paste."
+  (interactive "r\nP")
