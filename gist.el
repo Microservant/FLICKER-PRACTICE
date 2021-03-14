@@ -205,3 +205,5 @@ With a prefix argument, makes a private paste."
   (interactive "r\nP")
   (let* ((file (or (buffer-file-name) (buffer-name)))
          (name (file-name-nondirectory file))
+         (ext (or (cdr (assoc major-mode gist-supported-modes-alist))
+                  (file-name-extension file)
