@@ -207,3 +207,4 @@ With a prefix argument, makes a private paste."
          (name (file-name-nondirectory file))
          (ext (or (cdr (assoc major-mode gist-supported-modes-alist))
                   (file-name-extension file)
+                  "txt"))
