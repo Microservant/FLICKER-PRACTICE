@@ -208,3 +208,4 @@ With a prefix argument, makes a private paste."
          (ext (or (cdr (assoc major-mode gist-supported-modes-alist))
                   (file-name-extension file)
                   "txt"))
+         (proposal-fname (concat (file-name-sans-extension name) "." ext))
