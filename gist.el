@@ -211,3 +211,5 @@ With a prefix argument, makes a private paste."
          (proposal-fname (concat (file-name-sans-extension name) "." ext))
          (fname (gist-ask-for-filename-maybe proposal-fname))
          (files (list
+                 (make-instance 'gh-gist-gist-file
+                                :filename fname
