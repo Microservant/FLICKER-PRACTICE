@@ -213,3 +213,5 @@ With a prefix argument, makes a private paste."
          (files (list
                  (make-instance 'gh-gist-gist-file
                                 :filename fname
+                                :content (buffer-substring begin end)))))
+    (gist-internal-new files private
