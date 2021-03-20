@@ -219,3 +219,4 @@ With a prefix argument, makes a private paste."
 
 (defun gist-files (filenames &optional private callback)
   (let ((files nil))
+    (dolist (f filenames)
