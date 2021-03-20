@@ -209,3 +209,5 @@ With a prefix argument, makes a private paste."
                   (file-name-extension file)
                   "txt"))
          (proposal-fname (concat (file-name-sans-extension name) "." ext))
+         (fname (gist-ask-for-filename-maybe proposal-fname))
+         (files (list
