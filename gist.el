@@ -215,3 +215,4 @@ With a prefix argument, makes a private paste."
                                 :filename fname
                                 :content (buffer-substring begin end)))))
     (gist-internal-new files private
+                       (gist-ask-for-description-maybe) callback)))
