@@ -216,3 +216,6 @@ With a prefix argument, makes a private paste."
                                 :content (buffer-substring begin end)))))
     (gist-internal-new files private
                        (gist-ask-for-description-maybe) callback)))
+
+(defun gist-files (filenames &optional private callback)
+  (let ((files nil))
