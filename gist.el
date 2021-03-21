@@ -220,3 +220,5 @@ With a prefix argument, makes a private paste."
 (defun gist-files (filenames &optional private callback)
   (let ((files nil))
     (dolist (f filenames)
+      (with-temp-buffer
+        (insert-file-contents f)
