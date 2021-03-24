@@ -222,3 +222,5 @@ With a prefix argument, makes a private paste."
     (dolist (f filenames)
       (with-temp-buffer
         (insert-file-contents f)
+        (let ((name (file-name-nondirectory f)))
+          (push (make-instance 'gh-gist-gist-file :filename name :content (buffer-string))
