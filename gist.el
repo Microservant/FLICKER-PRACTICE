@@ -226,3 +226,4 @@ With a prefix argument, makes a private paste."
           (push (make-instance 'gh-gist-gist-file :filename name :content (buffer-string))
                 files))))
     (gist-internal-new files private
+                       (gist-ask-for-description-maybe) callback)))
