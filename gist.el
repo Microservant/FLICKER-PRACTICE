@@ -227,3 +227,5 @@ With a prefix argument, makes a private paste."
                 files))))
     (gist-internal-new files private
                        (gist-ask-for-description-maybe) callback)))
+
+(defun gist-created-callback (gist)
