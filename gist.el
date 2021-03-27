@@ -229,3 +229,4 @@ With a prefix argument, makes a private paste."
                        (gist-ask-for-description-maybe) callback)))
 
 (defun gist-created-callback (gist)
+  (let ((location (oref gist :html-url)))
