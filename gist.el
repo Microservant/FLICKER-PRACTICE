@@ -231,3 +231,4 @@ With a prefix argument, makes a private paste."
 (defun gist-created-callback (gist)
   (let ((location (oref gist :html-url)))
     (gist-list-reload 'current-user t)
+    (message gist-created-fmt location)
