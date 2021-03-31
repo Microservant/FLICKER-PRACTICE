@@ -232,3 +232,4 @@ With a prefix argument, makes a private paste."
   (let ((location (oref gist :html-url)))
     (gist-list-reload 'current-user t)
     (message gist-created-fmt location)
+    (when gist-view-gist
