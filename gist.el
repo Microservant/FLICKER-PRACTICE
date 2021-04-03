@@ -233,3 +233,4 @@ With a prefix argument, makes a private paste."
     (gist-list-reload 'current-user t)
     (message gist-created-fmt location)
     (when gist-view-gist
+      (browse-url location))
