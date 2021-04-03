@@ -234,3 +234,4 @@ With a prefix argument, makes a private paste."
     (message gist-created-fmt location)
     (when gist-view-gist
       (browse-url location))
+    (kill-new location)))
