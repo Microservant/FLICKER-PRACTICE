@@ -242,3 +242,6 @@ With a prefix argument, makes a private paste."
 Copies the URL into the kill ring."
   (interactive "r")
   (gist-region begin end t))
+
+;;;###autoload
+(defun gist-buffer (&optional private)
