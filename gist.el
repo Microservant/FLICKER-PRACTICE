@@ -235,3 +235,5 @@ With a prefix argument, makes a private paste."
     (when gist-view-gist
       (browse-url location))
     (kill-new location)))
+
+;;;###autoload
