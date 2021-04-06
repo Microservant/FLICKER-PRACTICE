@@ -241,3 +241,4 @@ With a prefix argument, makes a private paste."
   "Post the current region as a new private paste at gist.github.com
 Copies the URL into the kill ring."
   (interactive "r")
+  (gist-region begin end t))
