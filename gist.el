@@ -239,3 +239,4 @@ With a prefix argument, makes a private paste."
 ;;;###autoload
 (defun gist-region-private (begin end)
   "Post the current region as a new private paste at gist.github.com
+Copies the URL into the kill ring."
