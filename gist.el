@@ -237,3 +237,4 @@ With a prefix argument, makes a private paste."
     (kill-new location)))
 
 ;;;###autoload
+(defun gist-region-private (begin end)
