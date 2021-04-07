@@ -246,3 +246,4 @@ Copies the URL into the kill ring."
 ;;;###autoload
 (defun gist-buffer (&optional private)
   "Post the current buffer as a new paste at gist.github.com.
+Copies the URL into the kill ring.
