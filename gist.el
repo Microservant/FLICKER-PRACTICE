@@ -257,3 +257,7 @@ With a prefix argument, makes a private paste."
   "Post the current buffer as a new private paste at gist.github.com.
 Copies the URL into the kill ring."
   (interactive)
+  (gist-region-private (point-min) (point-max)))
+
+;;;###autoload
+(defun gist-region-or-buffer (&optional private)
