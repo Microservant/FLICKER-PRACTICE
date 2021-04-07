@@ -255,3 +255,4 @@ With a prefix argument, makes a private paste."
 ;;;###autoload
 (defun gist-buffer-private ()
   "Post the current buffer as a new private paste at gist.github.com.
+Copies the URL into the kill ring."
