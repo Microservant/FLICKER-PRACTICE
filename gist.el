@@ -253,3 +253,5 @@ With a prefix argument, makes a private paste."
   (gist-region (point-min) (point-max) private))
 
 ;;;###autoload
+(defun gist-buffer-private ()
+  "Post the current buffer as a new private paste at gist.github.com.
