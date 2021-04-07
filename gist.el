@@ -251,3 +251,5 @@ Copies the URL into the kill ring.
 With a prefix argument, makes a private paste."
   (interactive "P")
   (gist-region (point-min) (point-max) private))
+
+;;;###autoload
