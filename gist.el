@@ -261,3 +261,4 @@ Copies the URL into the kill ring."
 
 ;;;###autoload
 (defun gist-region-or-buffer (&optional private)
+  "Post either the current region, or if mark is not set, the
