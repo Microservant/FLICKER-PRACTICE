@@ -265,3 +265,5 @@ Copies the URL into the kill ring."
   current buffer as a new paste at gist.github.com
 
 Copies the URL into the kill ring.
+
+With a prefix argument, makes a private paste."
