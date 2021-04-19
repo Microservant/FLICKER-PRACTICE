@@ -270,3 +270,6 @@ With a prefix argument, makes a private paste."
   (interactive "P")
   (if (region-active-p)
       (gist-region (point) (mark) private)
+    (gist-buffer private)))
+
+;;;###autoload
