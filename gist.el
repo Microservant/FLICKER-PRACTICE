@@ -273,3 +273,4 @@ With a prefix argument, makes a private paste."
     (gist-buffer private)))
 
 ;;;###autoload
+(defun gist-region-or-buffer-private ()
