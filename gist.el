@@ -276,3 +276,5 @@ With a prefix argument, makes a private paste."
 (defun gist-region-or-buffer-private ()
   "Post either the current region, or if mark is not set, the
   current buffer as a new private paste at gist.github.com
+
+Copies the URL into the kill ring."
