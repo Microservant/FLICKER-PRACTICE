@@ -278,3 +278,6 @@ With a prefix argument, makes a private paste."
   current buffer as a new private paste at gist.github.com
 
 Copies the URL into the kill ring."
+  (interactive)
+  (if (region-active-p)
+      (gist-region-private (point) (mark))
