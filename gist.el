@@ -281,3 +281,4 @@ Copies the URL into the kill ring."
   (interactive)
   (if (region-active-p)
       (gist-region-private (point) (mark))
+    (gist-buffer-private)))
