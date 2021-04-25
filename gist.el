@@ -282,3 +282,5 @@ Copies the URL into the kill ring."
   (if (region-active-p)
       (gist-region-private (point) (mark))
     (gist-buffer-private)))
+
+;;;###autoload
