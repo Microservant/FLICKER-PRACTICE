@@ -284,3 +284,5 @@ Copies the URL into the kill ring."
     (gist-buffer-private)))
 
 ;;;###autoload
+(defun gist-list-user (username &optional force-reload background)
+  "Displays a list of a user's gists in a new buffer.  When called from
