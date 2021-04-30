@@ -287,3 +287,4 @@ Copies the URL into the kill ring."
 (defun gist-list-user (username &optional force-reload background)
   "Displays a list of a user's gists in a new buffer.  When called from
   a program, pass 'current-user as the username to view the user's own
+  gists, or nil for the username and a non-nil value for force-reload to
