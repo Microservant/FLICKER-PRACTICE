@@ -289,3 +289,4 @@ Copies the URL into the kill ring."
   a program, pass 'current-user as the username to view the user's own
   gists, or nil for the username and a non-nil value for force-reload to
   reload the gists for the current buffer."
+  (interactive
