@@ -291,3 +291,4 @@ Copies the URL into the kill ring."
   reload the gists for the current buffer."
   (interactive
    (let ((username (read-from-minibuffer "GitHub user: " nil nil nil
+                                          'gist-user-history))
