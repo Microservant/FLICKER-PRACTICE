@@ -293,3 +293,4 @@ Copies the URL into the kill ring."
    (let ((username (read-from-minibuffer "GitHub user: " nil nil nil
                                           'gist-user-history))
          (force-reload (equal current-prefix-arg '(4))))
+     (list username force-reload)))
