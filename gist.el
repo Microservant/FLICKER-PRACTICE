@@ -294,3 +294,4 @@ Copies the URL into the kill ring."
                                           'gist-user-history))
          (force-reload (equal current-prefix-arg '(4))))
      (list username force-reload)))
+  ;; if buffer exists, it contains the current gh profile
