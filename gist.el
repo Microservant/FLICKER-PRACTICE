@@ -298,3 +298,4 @@ Copies the URL into the kill ring."
   (let* ((gh-profile-current-profile (or gh-profile-current-profile
                                          (gh-profile-completing-read)))
          (bufname (if (null username)
+                      (if (not (equal major-mode 'gist-list-mode))
