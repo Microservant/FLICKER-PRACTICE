@@ -297,3 +297,4 @@ Copies the URL into the kill ring."
   ;; if buffer exists, it contains the current gh profile
   (let* ((gh-profile-current-profile (or gh-profile-current-profile
                                          (gh-profile-completing-read)))
+         (bufname (if (null username)
