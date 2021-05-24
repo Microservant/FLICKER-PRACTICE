@@ -299,3 +299,5 @@ Copies the URL into the kill ring."
                                          (gh-profile-completing-read)))
          (bufname (if (null username)
                       (if (not (equal major-mode 'gist-list-mode))
+                          (error "Current buffer isn't a gist-list-mode buffer")
+                        (buffer-name))
