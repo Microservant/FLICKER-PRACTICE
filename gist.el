@@ -301,3 +301,4 @@ Copies the URL into the kill ring."
                       (if (not (equal major-mode 'gist-list-mode))
                           (error "Current buffer isn't a gist-list-mode buffer")
                         (buffer-name))
+                    (format "*%s:%sgists*"
