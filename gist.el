@@ -302,3 +302,4 @@ Copies the URL into the kill ring."
                           (error "Current buffer isn't a gist-list-mode buffer")
                         (buffer-name))
                     (format "*%s:%sgists*"
+                            gh-profile-current-profile
