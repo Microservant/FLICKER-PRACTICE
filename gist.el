@@ -303,3 +303,6 @@ Copies the URL into the kill ring."
                         (buffer-name))
                     (format "*%s:%sgists*"
                             gh-profile-current-profile
+                            (if (or (equal "" username)
+                                    (eq 'current-user username))
+                                ""
