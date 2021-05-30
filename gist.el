@@ -306,3 +306,4 @@ Copies the URL into the kill ring."
                             (if (or (equal "" username)
                                     (eq 'current-user username))
                                 ""
+                              (format "%s's-" username)))))
