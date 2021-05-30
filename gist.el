@@ -307,3 +307,4 @@ Copies the URL into the kill ring."
                                     (eq 'current-user username))
                                 ""
                               (format "%s's-" username)))))
+         (api (gist-get-api nil))
