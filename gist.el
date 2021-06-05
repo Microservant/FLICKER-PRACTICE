@@ -308,3 +308,4 @@ Copies the URL into the kill ring."
                                 ""
                               (format "%s's-" username)))))
          (api (gist-get-api nil))
+         (username (or (and (null username) gist-list-buffer-user)
