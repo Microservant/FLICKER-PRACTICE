@@ -311,3 +311,4 @@ Copies the URL into the kill ring."
          (username (or (and (null username) gist-list-buffer-user)
                        (and (not (or (null username)
                                      (equal "" username)
+                                     (eq 'current-user username)))
