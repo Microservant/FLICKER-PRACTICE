@@ -312,3 +312,4 @@ Copies the URL into the kill ring."
                        (and (not (or (null username)
                                      (equal "" username)
                                      (eq 'current-user username)))
+                            username)
