@@ -313,3 +313,5 @@ Copies the URL into the kill ring."
                                      (equal "" username)
                                      (eq 'current-user username)))
                             username)
+                       (gh-api-get-username api))))
+    (when force-reload
