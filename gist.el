@@ -315,3 +315,4 @@ Copies the URL into the kill ring."
                             username)
                        (gh-api-get-username api))))
     (when force-reload
+      (pcache-clear (oref api :cache))
