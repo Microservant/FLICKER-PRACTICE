@@ -316,3 +316,4 @@ Copies the URL into the kill ring."
                        (gh-api-get-username api))))
     (when force-reload
       (pcache-clear (oref api :cache))
+      (or background (message "Retrieving list of gists...")))
