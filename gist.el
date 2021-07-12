@@ -318,3 +318,4 @@ Copies the URL into the kill ring."
       (pcache-clear (oref api :cache))
       (or background (message "Retrieving list of gists...")))
     (unless (and background (not (get-buffer bufname)))
+      (let ((resp (gh-gist-list api username)))
