@@ -319,3 +319,5 @@ Copies the URL into the kill ring."
       (or background (message "Retrieving list of gists...")))
     (unless (and background (not (get-buffer bufname)))
       (let ((resp (gh-gist-list api username)))
+        (gh-url-add-response-callback
+         resp
