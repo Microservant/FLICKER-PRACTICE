@@ -321,3 +321,4 @@ Copies the URL into the kill ring."
       (let ((resp (gh-gist-list api username)))
         (gh-url-add-response-callback
          resp
+         (lexical-let ((buffer bufname))
