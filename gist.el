@@ -323,3 +323,4 @@ Copies the URL into the kill ring."
          resp
          (lexical-let ((buffer bufname))
            (lambda (gists)
+             (with-current-buffer (get-buffer-create buffer)
