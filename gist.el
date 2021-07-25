@@ -328,3 +328,4 @@ Copies the URL into the kill ring."
                (gist-lists-retrieved-callback gists background)))))
         (gh-url-add-response-callback
          resp
+         (lexical-let ((profile (oref api :profile))
