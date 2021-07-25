@@ -324,3 +324,4 @@ Copies the URL into the kill ring."
          (lexical-let ((buffer bufname))
            (lambda (gists)
              (with-current-buffer (get-buffer-create buffer)
+               (setq gist-list-buffer-user username)
