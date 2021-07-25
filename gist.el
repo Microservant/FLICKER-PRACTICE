@@ -327,3 +327,4 @@ Copies the URL into the kill ring."
                (setq gist-list-buffer-user username)
                (gist-lists-retrieved-callback gists background)))))
         (gh-url-add-response-callback
+         resp
