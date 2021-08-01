@@ -332,3 +332,4 @@ Copies the URL into the kill ring."
                        (buffer bufname))
            (lambda (&rest args)
              (with-current-buffer buffer
+               (setq gh-profile-current-profile profile)))))))))
