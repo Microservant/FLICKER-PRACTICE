@@ -329,3 +329,5 @@ Copies the URL into the kill ring."
         (gh-url-add-response-callback
          resp
          (lexical-let ((profile (oref api :profile))
+                       (buffer bufname))
+           (lambda (&rest args)
