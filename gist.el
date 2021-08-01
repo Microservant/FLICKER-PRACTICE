@@ -331,3 +331,4 @@ Copies the URL into the kill ring."
          (lexical-let ((profile (oref api :profile))
                        (buffer bufname))
            (lambda (&rest args)
+             (with-current-buffer buffer
