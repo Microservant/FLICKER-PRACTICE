@@ -333,3 +333,6 @@ Copies the URL into the kill ring."
            (lambda (&rest args)
              (with-current-buffer buffer
                (setq gh-profile-current-profile profile)))))))))
+
+;;;###autoload
+(defun gist-list (&optional force-reload background)
