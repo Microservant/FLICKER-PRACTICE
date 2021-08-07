@@ -337,3 +337,4 @@ Copies the URL into the kill ring."
 ;;;###autoload
 (defun gist-list (&optional force-reload background)
   "Displays a list of all of the current user's gists in a new buffer."
+  (interactive "P")
