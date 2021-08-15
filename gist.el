@@ -341,3 +341,4 @@ Copies the URL into the kill ring."
   (gist-list-user 'current-user force-reload background))
 
 (defun gist-list-reload (&optional username background)
+  (interactive)
