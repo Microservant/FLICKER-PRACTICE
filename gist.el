@@ -345,3 +345,4 @@ Copies the URL into the kill ring."
   (gist-list-user username t background))
 
 (defun gist-list-redisplay ()
+  (gist-list-user 'current-user))
