@@ -346,3 +346,8 @@ Copies the URL into the kill ring."
 
 (defun gist-list-redisplay ()
   (gist-list-user 'current-user))
+
+(defun gist-tabulated-entry (gist)
+  (let* ((data (gist-parse-gist gist))
+         (repo (oref gist :id)))
+    (list repo (apply 'vector data))))
