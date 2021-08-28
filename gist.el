@@ -351,3 +351,6 @@ Copies the URL into the kill ring."
   (let* ((data (gist-parse-gist gist))
          (repo (oref gist :id)))
     (list repo (apply 'vector data))))
+
+(defun gist-lists-retrieved-callback (gists &optional background)
+  "Called when the list of gists has been retrieved. Displays
