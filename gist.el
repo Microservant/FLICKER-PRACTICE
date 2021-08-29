@@ -356,3 +356,4 @@ Copies the URL into the kill ring."
   "Called when the list of gists has been retrieved. Displays
 the list."
   (dolist (g (gethash gist-list-buffer-user gist-list-db-by-user))
+    (remhash (oref g :id) gist-list-db))
