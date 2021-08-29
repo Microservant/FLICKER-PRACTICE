@@ -355,3 +355,4 @@ Copies the URL into the kill ring."
 (defun gist-lists-retrieved-callback (gists &optional background)
   "Called when the list of gists has been retrieved. Displays
 the list."
+  (dolist (g (gethash gist-list-buffer-user gist-list-db-by-user))
