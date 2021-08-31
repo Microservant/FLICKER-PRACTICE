@@ -357,3 +357,4 @@ Copies the URL into the kill ring."
 the list."
   (dolist (g (gethash gist-list-buffer-user gist-list-db-by-user))
     (remhash (oref g :id) gist-list-db))
+  (dolist (g gists)
