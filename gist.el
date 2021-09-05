@@ -360,3 +360,4 @@ the list."
   (dolist (g gists)
     (puthash (oref g :id) g gist-list-db))
   (puthash gist-list-buffer-user gists gist-list-db-by-user)
+  (gist-list-render (gethash gist-list-buffer-user gist-list-db-by-user)
