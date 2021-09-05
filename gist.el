@@ -359,3 +359,4 @@ the list."
     (remhash (oref g :id) gist-list-db))
   (dolist (g gists)
     (puthash (oref g :id) g gist-list-db))
+  (puthash gist-list-buffer-user gists gist-list-db-by-user)
