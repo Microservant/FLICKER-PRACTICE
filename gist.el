@@ -365,3 +365,4 @@ the list."
 
 (defun gist--get-time (gist)
   (let* ((date (timezone-parse-date (oref gist :date)))
+         (time (timezone-parse-time (aref date 3))))
