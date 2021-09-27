@@ -368,3 +368,4 @@ the list."
          (time (timezone-parse-time (aref date 3))))
     (encode-time (string-to-number (aref time 2))
                  (string-to-number (aref time 1))
+                 (string-to-number (aref time 0))
