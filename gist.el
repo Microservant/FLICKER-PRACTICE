@@ -369,3 +369,5 @@ the list."
     (encode-time (string-to-number (aref time 2))
                  (string-to-number (aref time 1))
                  (string-to-number (aref time 0))
+                 (string-to-number (aref date 2))
+                 (string-to-number (aref date 1))
