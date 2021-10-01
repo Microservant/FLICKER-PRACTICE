@@ -371,3 +371,4 @@ the list."
                  (string-to-number (aref time 0))
                  (string-to-number (aref date 2))
                  (string-to-number (aref date 1))
+                 (string-to-number (aref date 0))
