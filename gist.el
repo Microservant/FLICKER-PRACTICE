@@ -375,3 +375,4 @@ the list."
                  (aref date 4))))
 
 (defun gist-parse-gist (gist)
+  "Returns a list of the gist's attributes for display, given the xml list
