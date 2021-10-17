@@ -377,3 +377,4 @@ the list."
 (defun gist-parse-gist (gist)
   "Returns a list of the gist's attributes for display, given the xml list
 for the gist."
+  (let ((repo (oref gist :id))
