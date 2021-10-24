@@ -380,3 +380,4 @@ for the gist."
   (let ((repo (oref gist :id))
         (creation (gist--get-time gist))
         (desc (or (oref gist :description) ""))
+        (public (eq t (oref gist :public)))
