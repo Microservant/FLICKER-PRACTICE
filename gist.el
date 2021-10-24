@@ -379,3 +379,4 @@ the list."
 for the gist."
   (let ((repo (oref gist :id))
         (creation (gist--get-time gist))
+        (desc (or (oref gist :description) ""))
