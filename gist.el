@@ -384,3 +384,5 @@ for the gist."
         (fnames (mapcar (lambda (f) (when f (oref f :filename))) (oref gist :files))))
     (loop for (id label width sort format) in gist-list-format
           collect (let ((string-formatter (if (eq id 'created)
+                                              'format-time-string
+                                            'format))
