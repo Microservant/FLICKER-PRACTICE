@@ -386,3 +386,4 @@ for the gist."
           collect (let ((string-formatter (if (eq id 'created)
                                               'format-time-string
                                             'format))
+                        (value (cond ((eq id 'id) repo)
