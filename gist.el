@@ -387,3 +387,4 @@ for the gist."
                                               'format-time-string
                                             'format))
                         (value (cond ((eq id 'id) repo)
+                                     ((eq id 'created) creation)
