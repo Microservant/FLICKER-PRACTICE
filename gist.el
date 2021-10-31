@@ -390,3 +390,4 @@ for the gist."
                                      ((eq id 'created) creation)
                                      ((eq id 'visibility) public)
                                      ((eq id 'description) desc)
+                                     ((eq id 'files) fnames))))
