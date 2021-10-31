@@ -388,3 +388,5 @@ for the gist."
                                             'format))
                         (value (cond ((eq id 'id) repo)
                                      ((eq id 'created) creation)
+                                     ((eq id 'visibility) public)
+                                     ((eq id 'description) desc)
