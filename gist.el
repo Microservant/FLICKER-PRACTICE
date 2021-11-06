@@ -391,3 +391,4 @@ for the gist."
                                      ((eq id 'visibility) public)
                                      ((eq id 'description) desc)
                                      ((eq id 'files) fnames))))
+                    (funcall (if (stringp format)
