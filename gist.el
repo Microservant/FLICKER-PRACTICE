@@ -392,3 +392,4 @@ for the gist."
                                      ((eq id 'description) desc)
                                      ((eq id 'files) fnames))))
                     (funcall (if (stringp format)
+                                 (lambda (val)
