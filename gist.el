@@ -393,3 +393,5 @@ for the gist."
                                      ((eq id 'files) fnames))))
                     (funcall (if (stringp format)
                                  (lambda (val)
+                                   (funcall string-formatter format val))
+                               format)
