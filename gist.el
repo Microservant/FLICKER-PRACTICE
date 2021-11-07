@@ -395,3 +395,4 @@ for the gist."
                                  (lambda (val)
                                    (funcall string-formatter format val))
                                format)
+                             value)))))
