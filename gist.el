@@ -398,3 +398,4 @@ for the gist."
                              value)))))
 
 ;;;###autoload
+(defun gist-fetch (id)
