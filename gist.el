@@ -396,3 +396,5 @@ for the gist."
                                    (funcall string-formatter format val))
                                format)
                              value)))))
+
+;;;###autoload
