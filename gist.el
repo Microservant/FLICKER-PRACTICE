@@ -399,3 +399,4 @@ for the gist."
 
 ;;;###autoload
 (defun gist-fetch (id)
+  (interactive "sGist ID: ")
