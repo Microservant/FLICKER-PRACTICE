@@ -404,3 +404,5 @@ for the gist."
         (multi nil)
         (prefix (format "*gist-%s*" id))
         (result nil)
+        (profile (gh-profile-current-profile)))
+    (setq gist (gist-list-db-get-gist id))
