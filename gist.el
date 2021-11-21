@@ -402,3 +402,5 @@ for the gist."
   (interactive "sGist ID: ")
   (let ((gist nil)
         (multi nil)
+        (prefix (format "*gist-%s*" id))
+        (result nil)
