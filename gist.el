@@ -401,3 +401,4 @@ for the gist."
 (defun gist-fetch (id)
   (interactive "sGist ID: ")
   (let ((gist nil)
+        (multi nil)
