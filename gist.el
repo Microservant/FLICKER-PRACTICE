@@ -408,3 +408,4 @@ for the gist."
     (setq gist (gist-list-db-get-gist id))
     (let ((api (gist-get-api t)))
       (cond ((null gist)
+             ;; fetch it
