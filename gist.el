@@ -407,3 +407,4 @@ for the gist."
         (profile (gh-profile-current-profile)))
     (setq gist (gist-list-db-get-gist id))
     (let ((api (gist-get-api t)))
+      (cond ((null gist)
