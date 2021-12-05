@@ -411,3 +411,5 @@ for the gist."
              ;; fetch it
              (setq gist (oref (gh-gist-get api id) :data))
              (puthash (oref gist :id) gist gist-list-db)
+             (let* ((user (oref gist :user))
+                    (gists (push gist (gethash user gist-list-db-by-user))))
