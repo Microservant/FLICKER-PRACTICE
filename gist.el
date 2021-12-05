@@ -409,3 +409,4 @@ for the gist."
     (let ((api (gist-get-api t)))
       (cond ((null gist)
              ;; fetch it
+             (setq gist (oref (gh-gist-get api id) :data))
