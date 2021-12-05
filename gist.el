@@ -410,3 +410,4 @@ for the gist."
       (cond ((null gist)
              ;; fetch it
              (setq gist (oref (gh-gist-get api id) :data))
+             (puthash (oref gist :id) gist gist-list-db)
