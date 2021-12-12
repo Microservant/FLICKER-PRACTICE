@@ -413,3 +413,5 @@ for the gist."
              (puthash (oref gist :id) gist gist-list-db)
              (let* ((user (oref gist :user))
                     (gists (push gist (gethash user gist-list-db-by-user))))
+               (puthash user gists gist-list-db-by-user)))
+            ((not (gh-gist-gist-has-files gist))
