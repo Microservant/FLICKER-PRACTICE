@@ -415,3 +415,4 @@ for the gist."
                     (gists (push gist (gethash user gist-list-db-by-user))))
                (puthash user gists gist-list-db-by-user)))
             ((not (gh-gist-gist-has-files gist))
+             (gh-gist-get api gist))))
