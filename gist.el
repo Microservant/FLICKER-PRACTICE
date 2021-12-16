@@ -420,3 +420,4 @@ for the gist."
       (setq multi (< 1 (length files)))
       (dolist (f files)
         (let ((buffer (get-buffer-create (format "%s/%s" prefix
+                                                 (oref f :filename))))
