@@ -417,3 +417,6 @@ for the gist."
             ((not (gh-gist-gist-has-files gist))
              (gh-gist-get api gist))))
     (let ((files (oref gist :files)))
+      (setq multi (< 1 (length files)))
+      (dolist (f files)
+        (let ((buffer (get-buffer-create (format "%s/%s" prefix
