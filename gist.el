@@ -422,3 +422,4 @@ for the gist."
         (let ((buffer (get-buffer-create (format "%s/%s" prefix
                                                  (oref f :filename))))
               (mode (car (rassoc (file-name-extension (oref f :filename))
+                                 gist-supported-modes-alist))))
