@@ -423,3 +423,4 @@ for the gist."
                                                  (oref f :filename))))
               (mode (car (rassoc (file-name-extension (oref f :filename))
                                  gist-supported-modes-alist))))
+          (with-current-buffer buffer
