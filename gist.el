@@ -424,3 +424,5 @@ for the gist."
               (mode (car (rassoc (file-name-extension (oref f :filename))
                                  gist-supported-modes-alist))))
           (with-current-buffer buffer
+            (delete-region (point-min) (point-max))
+            (insert (oref f :content))
