@@ -426,3 +426,4 @@ for the gist."
           (with-current-buffer buffer
             (delete-region (point-min) (point-max))
             (insert (oref f :content))
+            (let ((fname (oref f :filename)))
