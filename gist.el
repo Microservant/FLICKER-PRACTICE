@@ -427,3 +427,5 @@ for the gist."
             (delete-region (point-min) (point-max))
             (insert (oref f :content))
             (let ((fname (oref f :filename)))
+              ;; set major mode
+              (if (fboundp mode)
