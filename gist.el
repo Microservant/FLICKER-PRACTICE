@@ -429,3 +429,5 @@ for the gist."
             (let ((fname (oref f :filename)))
               ;; set major mode
               (if (fboundp mode)
+                  (funcall mode)
+                (let ((buffer-file-name fname)
