@@ -431,3 +431,6 @@ for the gist."
               (if (fboundp mode)
                   (funcall mode)
                 (let ((buffer-file-name fname)
+                      enable-dir-local-variables)
+                  (normal-mode)))
+              ;; set minor mode
