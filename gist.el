@@ -434,3 +434,4 @@ for the gist."
                       enable-dir-local-variables)
                   (normal-mode)))
               ;; set minor mode
+              (gist-mode 1)
