@@ -435,3 +435,4 @@ for the gist."
                   (normal-mode)))
               ;; set minor mode
               (gist-mode 1)
+              (setq gist-id id
