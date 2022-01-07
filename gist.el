@@ -436,3 +436,4 @@ for the gist."
               ;; set minor mode
               (gist-mode 1)
               (setq gist-id id
+                    gist-filename fname
