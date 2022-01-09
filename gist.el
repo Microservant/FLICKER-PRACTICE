@@ -440,3 +440,4 @@ for the gist."
                     gh-profile-current-profile profile))
             (set-buffer-modified-p nil))
           (setq result buffer))))
+    (if multi
