@@ -437,3 +437,5 @@ for the gist."
               (gist-mode 1)
               (setq gist-id id
                     gist-filename fname
+                    gh-profile-current-profile profile))
+            (set-buffer-modified-p nil))
