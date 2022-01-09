@@ -439,3 +439,4 @@ for the gist."
                     gist-filename fname
                     gh-profile-current-profile profile))
             (set-buffer-modified-p nil))
+          (setq result buffer))))
