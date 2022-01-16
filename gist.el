@@ -442,3 +442,4 @@ for the gist."
           (setq result buffer))))
     (if multi
         (let ((ibuffer-mode-hook nil)
+              (ibuffer-use-header-line nil)
