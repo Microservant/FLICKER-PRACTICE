@@ -443,3 +443,4 @@ for the gist."
     (if multi
         (let ((ibuffer-mode-hook nil)
               (ibuffer-use-header-line nil)
+              (ibuffer-show-empty-filter-groups nil))
