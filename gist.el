@@ -444,3 +444,5 @@ for the gist."
         (let ((ibuffer-mode-hook nil)
               (ibuffer-use-header-line nil)
               (ibuffer-show-empty-filter-groups nil))
+          (ibuffer t prefix
+                   `((name . ,(regexp-quote (concat prefix "/"))))
