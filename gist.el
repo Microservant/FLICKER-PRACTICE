@@ -447,3 +447,5 @@ for the gist."
           (ibuffer t prefix
                    `((name . ,(regexp-quote (concat prefix "/"))))
                    nil nil
+                   nil
+                   '((name))))
