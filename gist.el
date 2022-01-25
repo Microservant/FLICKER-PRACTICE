@@ -446,3 +446,4 @@ for the gist."
               (ibuffer-show-empty-filter-groups nil))
           (ibuffer t prefix
                    `((name . ,(regexp-quote (concat prefix "/"))))
+                   nil nil
