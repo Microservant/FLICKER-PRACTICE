@@ -450,3 +450,5 @@ for the gist."
                    nil
                    '((name))))
       (switch-to-buffer-other-window result))))
+
+(defun gist-fetch-current ()
