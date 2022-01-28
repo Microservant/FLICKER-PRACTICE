@@ -449,3 +449,4 @@ for the gist."
                    nil nil
                    nil
                    '((name))))
+      (switch-to-buffer-other-window result))))
