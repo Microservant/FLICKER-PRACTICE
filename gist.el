@@ -452,3 +452,5 @@ for the gist."
       (switch-to-buffer-other-window result))))
 
 (defun gist-fetch-current ()
+  (interactive)
+  (gist-fetch (tabulated-list-get-id)))
