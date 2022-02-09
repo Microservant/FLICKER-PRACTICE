@@ -454,3 +454,5 @@ for the gist."
 (defun gist-fetch-current ()
   (interactive)
   (gist-fetch (tabulated-list-get-id)))
+
+(defun gist-fetch-current-noselect ()
