@@ -458,3 +458,4 @@ for the gist."
 (defun gist-fetch-current-noselect ()
   (interactive)
   (let ((win (selected-window)))
+    (gist-fetch-current)
