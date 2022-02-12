@@ -459,3 +459,4 @@ for the gist."
   (interactive)
   (let ((win (selected-window)))
     (gist-fetch-current)
+    (select-window win)))
