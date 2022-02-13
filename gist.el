@@ -464,3 +464,5 @@ for the gist."
 (defun gist--check-perms-and-get-api (gist errormsg apiflg)
   (let* ((api (gist-get-api apiflg))
          (username (gh-api-get-username api))
+         (gs (gethash username gist-list-db-by-user)))
+    (if (not (memq gist gs))
