@@ -462,3 +462,4 @@ for the gist."
     (select-window win)))
 
 (defun gist--check-perms-and-get-api (gist errormsg apiflg)
+  (let* ((api (gist-get-api apiflg))
