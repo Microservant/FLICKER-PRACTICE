@@ -466,3 +466,5 @@ for the gist."
          (username (gh-api-get-username api))
          (gs (gethash username gist-list-db-by-user)))
     (if (not (memq gist gs))
+        (user-error errormsg)
+      api)))
