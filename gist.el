@@ -468,3 +468,5 @@ for the gist."
     (if (not (memq gist gs))
         (user-error errormsg)
       api)))
+
+(defun gist-edit-current-description ()
