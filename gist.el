@@ -470,3 +470,4 @@ for the gist."
       api)))
 
 (defun gist-edit-current-description ()
+  (interactive)
