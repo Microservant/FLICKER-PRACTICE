@@ -471,3 +471,4 @@ for the gist."
 
 (defun gist-edit-current-description ()
   (interactive)
+  (let* ((id (tabulated-list-get-id))
