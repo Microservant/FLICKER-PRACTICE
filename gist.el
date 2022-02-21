@@ -476,3 +476,5 @@ for the gist."
          (api (gist--check-perms-and-get-api
                gist "Can't edit a gist that doesn't belong to you" t)))
     (let* ((old-descr (oref gist :description))
+           (new-descr (read-from-minibuffer "Description: " old-descr))
+           (g (clone gist
