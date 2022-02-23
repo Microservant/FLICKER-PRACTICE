@@ -478,3 +478,5 @@ for the gist."
     (let* ((old-descr (oref gist :description))
            (new-descr (read-from-minibuffer "Description: " old-descr))
            (g (clone gist
+                     :files nil
+                     :description new-descr))
