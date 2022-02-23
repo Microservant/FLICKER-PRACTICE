@@ -481,3 +481,4 @@ for the gist."
                      :files nil
                      :description new-descr))
            (resp (gh-gist-edit api g)))
+      (gh-url-add-response-callback resp
