@@ -484,3 +484,5 @@ for the gist."
       (gh-url-add-response-callback resp
                                     (lambda (gist)
                                       (gist-list-reload))))))
+
+(defun gist-add-buffer (buffer)
