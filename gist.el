@@ -487,3 +487,5 @@ for the gist."
 
 (defun gist-add-buffer (buffer)
   (interactive "bBuffer: ")
+  (let* ((buffer (get-buffer buffer))
+         (id (tabulated-list-get-id))
