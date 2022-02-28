@@ -486,3 +486,4 @@ for the gist."
                                       (gist-list-reload))))))
 
 (defun gist-add-buffer (buffer)
+  (interactive "bBuffer: ")
