@@ -489,3 +489,4 @@ for the gist."
   (interactive "bBuffer: ")
   (let* ((buffer (get-buffer buffer))
          (id (tabulated-list-get-id))
+         (gist (gist-list-db-get-gist id))
