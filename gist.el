@@ -492,3 +492,4 @@ for the gist."
          (gist (gist-list-db-get-gist id))
          (api (gist--check-perms-and-get-api
                gist "Can't modify a gist that doesn't belong to you" t))
+         (fname (file-name-nondirectory (or (buffer-file-name buffer)
