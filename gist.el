@@ -490,3 +490,5 @@ for the gist."
   (let* ((buffer (get-buffer buffer))
          (id (tabulated-list-get-id))
          (gist (gist-list-db-get-gist id))
+         (api (gist--check-perms-and-get-api
+               gist "Can't modify a gist that doesn't belong to you" t))
