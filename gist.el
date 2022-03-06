@@ -495,3 +495,4 @@ for the gist."
          (fname (file-name-nondirectory (or (buffer-file-name buffer)
                                             (buffer-name buffer))))
          (g (clone gist :files
+                   (list
