@@ -494,3 +494,4 @@ for the gist."
                gist "Can't modify a gist that doesn't belong to you" t))
          (fname (file-name-nondirectory (or (buffer-file-name buffer)
                                             (buffer-name buffer))))
+         (g (clone gist :files
