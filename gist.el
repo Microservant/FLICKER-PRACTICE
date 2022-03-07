@@ -496,3 +496,5 @@ for the gist."
                                             (buffer-name buffer))))
          (g (clone gist :files
                    (list
+                    (make-instance 'gh-gist-gist-file
+                                   :filename fname
