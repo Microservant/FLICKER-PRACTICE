@@ -498,3 +498,4 @@ for the gist."
                    (list
                     (make-instance 'gh-gist-gist-file
                                    :filename fname
+                                   :content (with-current-buffer buffer
