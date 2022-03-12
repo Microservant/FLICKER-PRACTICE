@@ -499,3 +499,4 @@ for the gist."
                     (make-instance 'gh-gist-gist-file
                                    :filename fname
                                    :content (with-current-buffer buffer
+                                              (buffer-string))))))
