@@ -500,3 +500,4 @@ for the gist."
                                    :filename fname
                                    :content (with-current-buffer buffer
                                               (buffer-string))))))
+         (resp (gh-gist-edit api g)))
