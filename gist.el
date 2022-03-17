@@ -501,3 +501,6 @@ for the gist."
                                    :content (with-current-buffer buffer
                                               (buffer-string))))))
          (resp (gh-gist-edit api g)))
+    (gh-url-add-response-callback resp
+                                  (lambda (gist)
+                                    (gist-list-reload)))))
