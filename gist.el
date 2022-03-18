@@ -506,3 +506,5 @@ for the gist."
                                     (gist-list-reload)))))
 
 (defun gist-remove-file (fname)
+  (interactive (list
+                (completing-read
