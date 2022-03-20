@@ -508,3 +508,5 @@ for the gist."
 (defun gist-remove-file (fname)
   (interactive (list
                 (completing-read
+                 "Filename to remove: "
+                 (let* ((id (tabulated-list-get-id))
