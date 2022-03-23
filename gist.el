@@ -510,3 +510,6 @@ for the gist."
                 (completing-read
                  "Filename to remove: "
                  (let* ((id (tabulated-list-get-id))
+                        (gist (gist-list-db-get-gist id)))
+                   (mapcar #'(lambda (f) (oref f :filename))
+                           (oref gist :files))))))
