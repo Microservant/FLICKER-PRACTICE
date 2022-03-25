@@ -513,3 +513,5 @@ for the gist."
                         (gist (gist-list-db-get-gist id)))
                    (mapcar #'(lambda (f) (oref f :filename))
                            (oref gist :files))))))
+  (let* ((id (tabulated-list-get-id))
+         (gist (gist-list-db-get-gist id))
