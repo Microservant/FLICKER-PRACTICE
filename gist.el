@@ -515,3 +515,4 @@ for the gist."
                            (oref gist :files))))))
   (let* ((id (tabulated-list-get-id))
          (gist (gist-list-db-get-gist id))
+         (api (gist--check-perms-and-get-api
