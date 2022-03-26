@@ -518,3 +518,5 @@ for the gist."
          (api (gist--check-perms-and-get-api
                gist "Can't modify a gist that doesn't belong to you" t))
          (g (clone gist :files
+                   (list
+                    (make-instance 'gh-gist-gist-file
