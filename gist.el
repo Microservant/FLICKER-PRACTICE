@@ -520,3 +520,4 @@ for the gist."
          (g (clone gist :files
                    (list
                     (make-instance 'gh-gist-gist-file
+                                   :filename fname
