@@ -522,3 +522,4 @@ for the gist."
                     (make-instance 'gh-gist-gist-file
                                    :filename fname
                                    :content nil))))
+         (resp (gh-gist-edit api g)))
