@@ -525,3 +525,4 @@ for the gist."
          (resp (gh-gist-edit api g)))
     (gh-url-add-response-callback resp
                                   (lambda (gist)
+                                    (gist-list-reload)))))
