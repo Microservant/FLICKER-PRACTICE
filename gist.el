@@ -528,3 +528,4 @@ for the gist."
                                     (gist-list-reload)))))
 
 (defun gist-kill-current ()
+  (interactive)
