@@ -531,3 +531,5 @@ for the gist."
   (interactive)
   (let* ((id (tabulated-list-get-id))
          (gist (gist-list-db-get-gist id))
+         (api (gist--check-perms-and-get-api
+               gist "Can't delete a gist that doesn't belong to you" t)))
