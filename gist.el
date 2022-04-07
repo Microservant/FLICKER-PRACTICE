@@ -530,3 +530,4 @@ for the gist."
 (defun gist-kill-current ()
   (interactive)
   (let* ((id (tabulated-list-get-id))
+         (gist (gist-list-db-get-gist id))
