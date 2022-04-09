@@ -534,3 +534,4 @@ for the gist."
          (api (gist--check-perms-and-get-api
                gist "Can't delete a gist that doesn't belong to you" t)))
     (when (yes-or-no-p (format "Really delete gist %s ? " id) )
+      (let* ((resp (gh-gist-delete api id)))
