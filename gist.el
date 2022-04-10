@@ -536,3 +536,5 @@ for the gist."
     (when (yes-or-no-p (format "Really delete gist %s ? " id) )
       (let* ((resp (gh-gist-delete api id)))
         (gist-list-reload)))))
+
+(defun gist-current-url ()
