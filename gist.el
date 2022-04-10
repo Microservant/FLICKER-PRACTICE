@@ -538,3 +538,4 @@ for the gist."
         (gist-list-reload)))))
 
 (defun gist-current-url ()
+  "Helper function to fetch current gist url"
