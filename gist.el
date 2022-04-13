@@ -541,3 +541,5 @@ for the gist."
   "Helper function to fetch current gist url"
   (let* ((id (or (and (eq major-mode 'gist-list-mode)
                       (tabulated-list-get-id))
+                 (and (boundp 'gist-mode)
+                      gist-mode
