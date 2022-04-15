@@ -543,3 +543,6 @@ for the gist."
                       (tabulated-list-get-id))
                  (and (boundp 'gist-mode)
                       gist-mode
+                      gist-id)))
+         (gist (gist-list-db-get-gist id)))
+    (oref gist :html-url)))
