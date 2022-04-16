@@ -548,3 +548,4 @@ for the gist."
     (oref gist :html-url)))
 
 (defun gist-print-current-url ()
+  "Display the currently selected gist's url in the echo area and
