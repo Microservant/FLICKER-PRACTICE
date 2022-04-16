@@ -546,3 +546,5 @@ for the gist."
                       gist-id)))
          (gist (gist-list-db-get-gist id)))
     (oref gist :html-url)))
+
+(defun gist-print-current-url ()
