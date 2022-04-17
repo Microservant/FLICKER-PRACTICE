@@ -551,3 +551,4 @@ for the gist."
   "Display the currently selected gist's url in the echo area and
 put it into `kill-ring'."
   (interactive)
+  (kill-new (message (gist-current-url))))
