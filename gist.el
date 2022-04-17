@@ -550,3 +550,4 @@ for the gist."
 (defun gist-print-current-url ()
   "Display the currently selected gist's url in the echo area and
 put it into `kill-ring'."
+  (interactive)
