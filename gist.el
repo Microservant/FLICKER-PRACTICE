@@ -552,3 +552,6 @@ for the gist."
 put it into `kill-ring'."
   (interactive)
   (kill-new (message (gist-current-url))))
+
+(defun gist-browse-current-url ()
+  "Browse current gist on github"
