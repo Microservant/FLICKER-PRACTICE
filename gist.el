@@ -557,3 +557,5 @@ put it into `kill-ring'."
   "Browse current gist on github"
   (interactive)
   (browse-url (gist-current-url)))
+
+(defun gist--do-star (id how msg)
