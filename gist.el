@@ -556,3 +556,4 @@ put it into `kill-ring'."
 (defun gist-browse-current-url ()
   "Browse current gist on github"
   (interactive)
+  (browse-url (gist-current-url)))
