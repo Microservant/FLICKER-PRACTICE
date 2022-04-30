@@ -559,3 +559,5 @@ put it into `kill-ring'."
   (browse-url (gist-current-url)))
 
 (defun gist--do-star (id how msg)
+  (let* ((api (gist-get-api t))
+         (resp (gh-gist-set-star api id how)))
