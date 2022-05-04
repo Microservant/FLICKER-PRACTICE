@@ -562,3 +562,5 @@ put it into `kill-ring'."
   (let* ((api (gist-get-api t))
          (resp (gh-gist-set-star api id how)))
     (gh-url-add-response-callback resp
+                                  (lambda (gist)
+                                    (message msg id)))))
