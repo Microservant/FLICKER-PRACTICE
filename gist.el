@@ -566,3 +566,4 @@ put it into `kill-ring'."
                                     (message msg id)))))
 
 ;;;###autoload
+(defun gist-star ()
