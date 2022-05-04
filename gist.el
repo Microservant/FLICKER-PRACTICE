@@ -564,3 +564,5 @@ put it into `kill-ring'."
     (gh-url-add-response-callback resp
                                   (lambda (gist)
                                     (message msg id)))))
+
+;;;###autoload
