@@ -569,3 +569,4 @@ put it into `kill-ring'."
 (defun gist-star ()
   (interactive)
   (let ((id (tabulated-list-get-id)))
+    (gist--do-star id t "Starred gist %s")))
