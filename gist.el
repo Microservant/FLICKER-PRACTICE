@@ -567,3 +567,5 @@ put it into `kill-ring'."
 
 ;;;###autoload
 (defun gist-star ()
+  (interactive)
+  (let ((id (tabulated-list-get-id)))
