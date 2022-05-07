@@ -572,3 +572,4 @@ put it into `kill-ring'."
     (gist--do-star id t "Starred gist %s")))
 
 ;;;###autoload
+(defun gist-unstar ()
