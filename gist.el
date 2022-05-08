@@ -575,3 +575,4 @@ put it into `kill-ring'."
 (defun gist-unstar ()
   (interactive)
   (let ((id (tabulated-list-get-id)))
+    (gist--do-star id nil "Unstarred gist %s")))
