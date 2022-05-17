@@ -578,3 +578,4 @@ put it into `kill-ring'."
     (gist--do-star id nil "Unstarred gist %s")))
 
 ;;;###autoload
+(defun gist-list-starred (&optional background)
