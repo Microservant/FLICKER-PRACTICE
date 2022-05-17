@@ -580,3 +580,4 @@ put it into `kill-ring'."
 ;;;###autoload
 (defun gist-list-starred (&optional background)
   "List your starred gists."
+  (interactive)
