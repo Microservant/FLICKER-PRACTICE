@@ -581,3 +581,4 @@ put it into `kill-ring'."
 (defun gist-list-starred (&optional background)
   "List your starred gists."
   (interactive)
+  (let* ((api (gist-get-api t))
