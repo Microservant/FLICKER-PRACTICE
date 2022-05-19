@@ -583,3 +583,5 @@ put it into `kill-ring'."
   (interactive)
   (let* ((api (gist-get-api t))
          (resp (gh-gist-list-starred api)))
+    (gh-url-add-response-callback
+     resp
