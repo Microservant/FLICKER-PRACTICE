@@ -582,3 +582,4 @@ put it into `kill-ring'."
   "List your starred gists."
   (interactive)
   (let* ((api (gist-get-api t))
+         (resp (gh-gist-list-starred api)))
