@@ -585,3 +585,4 @@ put it into `kill-ring'."
          (resp (gh-gist-list-starred api)))
     (gh-url-add-response-callback
      resp
+     (lexical-let ((buffer "*starred-gists*"))
