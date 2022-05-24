@@ -586,3 +586,4 @@ put it into `kill-ring'."
     (gh-url-add-response-callback
      resp
      (lexical-let ((buffer "*starred-gists*"))
+       (lambda (gists)
