@@ -587,3 +587,4 @@ put it into `kill-ring'."
      resp
      (lexical-let ((buffer "*starred-gists*"))
        (lambda (gists)
+         (with-current-buffer (get-buffer-create buffer)
