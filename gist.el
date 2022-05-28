@@ -591,3 +591,4 @@ put it into `kill-ring'."
            (gist-list-render gists background)))))))
 
 ;;;###autoload
+(defun gist-fork ()
