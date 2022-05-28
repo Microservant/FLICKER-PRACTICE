@@ -593,3 +593,4 @@ put it into `kill-ring'."
 ;;;###autoload
 (defun gist-fork ()
   "Fork a gist."
+  (interactive)
