@@ -595,3 +595,5 @@ put it into `kill-ring'."
   "Fork a gist."
   (interactive)
   (let* ((id (tabulated-list-get-id))
+         (api (gist-get-api))
+         (resp (gh-gist-fork api id)))
