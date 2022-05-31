@@ -594,3 +594,4 @@ put it into `kill-ring'."
 (defun gist-fork ()
   "Fork a gist."
   (interactive)
+  (let* ((id (tabulated-list-get-id))
