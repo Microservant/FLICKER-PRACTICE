@@ -597,3 +597,5 @@ put it into `kill-ring'."
   (let* ((id (tabulated-list-get-id))
          (api (gist-get-api))
          (resp (gh-gist-fork api id)))
+    (gh-url-add-response-callback resp
+                                  (lambda (gist)
