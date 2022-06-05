@@ -599,3 +599,4 @@ put it into `kill-ring'."
          (resp (gh-gist-fork api id)))
     (gh-url-add-response-callback resp
                                   (lambda (gist)
+                                    (message "Forked gist %s" id)))))
