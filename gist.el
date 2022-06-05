@@ -600,3 +600,5 @@ put it into `kill-ring'."
     (gh-url-add-response-callback resp
                                   (lambda (gist)
                                     (message "Forked gist %s" id)))))
+
+(defvar gist-list-menu-mode-map
