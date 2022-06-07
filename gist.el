@@ -603,3 +603,4 @@ put it into `kill-ring'."
 
 (defvar gist-list-menu-mode-map
   (let ((map (make-sparse-keymap)))
+    (set-keymap-parent map tabulated-list-mode-map)
