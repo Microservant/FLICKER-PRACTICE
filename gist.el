@@ -602,3 +602,4 @@ put it into `kill-ring'."
                                     (message "Forked gist %s" id)))))
 
 (defvar gist-list-menu-mode-map
+  (let ((map (make-sparse-keymap)))
