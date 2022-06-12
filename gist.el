@@ -607,3 +607,5 @@ put it into `kill-ring'."
     (define-key map "\C-m" 'gist-fetch-current)
     (define-key map [tab] 'gist-fetch-current-noselect)
     (define-key map "g" 'gist-list-reload)
+    (define-key map "e" 'gist-edit-current-description)
+    (define-key map "k" 'gist-kill-current)
