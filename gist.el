@@ -605,3 +605,4 @@ put it into `kill-ring'."
   (let ((map (make-sparse-keymap)))
     (set-keymap-parent map tabulated-list-mode-map)
     (define-key map "\C-m" 'gist-fetch-current)
+    (define-key map [tab] 'gist-fetch-current-noselect)
