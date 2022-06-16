@@ -609,3 +609,4 @@ put it into `kill-ring'."
     (define-key map "g" 'gist-list-reload)
     (define-key map "e" 'gist-edit-current-description)
     (define-key map "k" 'gist-kill-current)
+    (define-key map "+" 'gist-add-buffer)
