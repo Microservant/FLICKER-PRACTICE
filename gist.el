@@ -612,3 +612,4 @@ put it into `kill-ring'."
     (define-key map "+" 'gist-add-buffer)
     (define-key map "-" 'gist-remove-file)
     (define-key map "y" 'gist-print-current-url)
+    (define-key map "b" 'gist-browse-current-url)
