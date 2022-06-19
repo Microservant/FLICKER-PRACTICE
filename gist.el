@@ -615,3 +615,4 @@ put it into `kill-ring'."
     (define-key map "b" 'gist-browse-current-url)
     (define-key map "*" 'gist-star)
     (define-key map "^" 'gist-unstar)
+    (define-key map "f" 'gist-fork)
