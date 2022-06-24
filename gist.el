@@ -617,3 +617,4 @@ put it into `kill-ring'."
     (define-key map "^" 'gist-unstar)
     (define-key map "f" 'gist-fork)
     (define-key map "/p" 'gist-list-push-visibility-limit)
+    (define-key map "/t" 'gist-list-push-tag-limit)
