@@ -620,3 +620,5 @@ put it into `kill-ring'."
     (define-key map "/t" 'gist-list-push-tag-limit)
     (define-key map "/w" 'gist-list-pop-limit)
     map))
+
+(define-derived-mode gist-list-mode tabulated-list-mode "Gists"
