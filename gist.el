@@ -624,3 +624,4 @@ put it into `kill-ring'."
 (define-derived-mode gist-list-mode tabulated-list-mode "Gists"
   "Major mode for browsing gists.
 \\<gist-list-menu-mode-map>
+\\{gist-list-menu-mode-map}"
