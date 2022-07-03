@@ -625,3 +625,6 @@ put it into `kill-ring'."
   "Major mode for browsing gists.
 \\<gist-list-menu-mode-map>
 \\{gist-list-menu-mode-map}"
+  (setq tabulated-list-format
+        (apply 'vector
+               (loop for (sym label width sort format) in gist-list-format
