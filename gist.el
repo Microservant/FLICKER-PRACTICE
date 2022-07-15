@@ -629,3 +629,4 @@ put it into `kill-ring'."
         (apply 'vector
                (loop for (sym label width sort format) in gist-list-format
                      collect (list label width sort)))
+        tabulated-list-padding 2
