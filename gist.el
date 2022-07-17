@@ -632,3 +632,4 @@ put it into `kill-ring'."
         tabulated-list-padding 2
         tabulated-list-sort-key nil)
   (tabulated-list-init-header)
+  (use-local-map gist-list-menu-mode-map)
