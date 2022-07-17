@@ -631,3 +631,4 @@ put it into `kill-ring'."
                      collect (list label width sort)))
         tabulated-list-padding 2
         tabulated-list-sort-key nil)
+  (tabulated-list-init-header)
