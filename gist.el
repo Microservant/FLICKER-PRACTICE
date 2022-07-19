@@ -633,3 +633,4 @@ put it into `kill-ring'."
         tabulated-list-sort-key nil)
   (tabulated-list-init-header)
   (use-local-map gist-list-menu-mode-map)
+  (font-lock-add-keywords nil '(("#[^[:space:]]*" . 'font-lock-keyword-face))))
