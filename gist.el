@@ -636,3 +636,4 @@ put it into `kill-ring'."
   (font-lock-add-keywords nil '(("#[^[:space:]]*" . 'font-lock-keyword-face))))
 
 (defun gist-list-pop-limit (&optional all)
+  (interactive "P")
