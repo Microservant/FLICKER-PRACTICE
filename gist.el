@@ -637,3 +637,5 @@ put it into `kill-ring'."
 
 (defun gist-list-pop-limit (&optional all)
   (interactive "P")
+  (if all
+      (setq gist-list-limits nil)
