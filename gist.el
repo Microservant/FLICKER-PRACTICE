@@ -639,3 +639,5 @@ put it into `kill-ring'."
   (interactive "P")
   (if all
       (setq gist-list-limits nil)
+    (pop gist-list-limits))
+  (gist-list-redisplay))
