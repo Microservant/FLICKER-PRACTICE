@@ -641,3 +641,5 @@ put it into `kill-ring'."
       (setq gist-list-limits nil)
     (pop gist-list-limits))
   (gist-list-redisplay))
+
+(defun gist-list-push-visibility-limit (&optional private)
