@@ -643,3 +643,4 @@ put it into `kill-ring'."
   (gist-list-redisplay))
 
 (defun gist-list-push-visibility-limit (&optional private)
+  (interactive "P")
