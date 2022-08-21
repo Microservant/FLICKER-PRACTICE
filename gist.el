@@ -644,3 +644,5 @@ put it into `kill-ring'."
 
 (defun gist-list-push-visibility-limit (&optional private)
   (interactive "P")
+  (push (apply-partially (lambda (flag g)
+                           (or (and flag (not (oref g :public)))
