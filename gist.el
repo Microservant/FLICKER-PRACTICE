@@ -647,3 +647,4 @@ put it into `kill-ring'."
   (push (apply-partially (lambda (flag g)
                            (or (and flag (not (oref g :public)))
                                (and (not flag) (oref g :public))))
+                         private)
