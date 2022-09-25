@@ -648,3 +648,5 @@ put it into `kill-ring'."
                            (or (and flag (not (oref g :public)))
                                (and (not flag) (oref g :public))))
                          private)
+        gist-list-limits)
+  (gist-list-redisplay))
