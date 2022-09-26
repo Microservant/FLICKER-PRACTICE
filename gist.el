@@ -650,3 +650,6 @@ put it into `kill-ring'."
                          private)
         gist-list-limits)
   (gist-list-redisplay))
+
+(defun gist-parse-tags (tags)
+  (let ((words (split-string tags))
