@@ -653,3 +653,5 @@ put it into `kill-ring'."
 
 (defun gist-parse-tags (tags)
   (let ((words (split-string tags))
+        with without)
+    (dolist (w words)
