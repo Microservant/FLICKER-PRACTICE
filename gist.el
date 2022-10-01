@@ -655,3 +655,4 @@ put it into `kill-ring'."
   (let ((words (split-string tags))
         with without)
     (dolist (w words)
+      (cond ((string-prefix-p "+" w)
