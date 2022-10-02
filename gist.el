@@ -656,3 +656,4 @@ put it into `kill-ring'."
         with without)
     (dolist (w words)
       (cond ((string-prefix-p "+" w)
+             (push (substring w 1) with))
