@@ -660,3 +660,4 @@ put it into `kill-ring'."
             ((string-prefix-p "-" w)
              (push (substring w 1) without))
             (t
+             (push w with))))
