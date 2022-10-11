@@ -662,3 +662,5 @@ put it into `kill-ring'."
             (t
              (push w with))))
     (list with without)))
+
+(defun gist-list-push-tag-limit (tags)
