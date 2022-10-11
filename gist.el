@@ -661,3 +661,4 @@ put it into `kill-ring'."
              (push (substring w 1) without))
             (t
              (push w with))))
+    (list with without)))
