@@ -664,3 +664,4 @@ put it into `kill-ring'."
     (list with without)))
 
 (defun gist-list-push-tag-limit (tags)
+  (interactive "sTags: ")
