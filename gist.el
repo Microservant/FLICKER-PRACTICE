@@ -666,3 +666,5 @@ put it into `kill-ring'."
 (defun gist-list-push-tag-limit (tags)
   (interactive "sTags: ")
   (let* ((lsts (gist-parse-tags tags))
+         (with (car lsts))
+         (without (cadr lsts)))
