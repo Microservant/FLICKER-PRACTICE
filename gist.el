@@ -668,3 +668,4 @@ put it into `kill-ring'."
   (let* ((lsts (gist-parse-tags tags))
          (with (car lsts))
          (without (cadr lsts)))
+    (push (apply-partially (lambda (with without g)
