@@ -669,3 +669,4 @@ put it into `kill-ring'."
          (with (car lsts))
          (without (cadr lsts)))
     (push (apply-partially (lambda (with without g)
+                             (and
