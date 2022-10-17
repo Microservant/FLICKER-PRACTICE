@@ -671,3 +671,4 @@ put it into `kill-ring'."
     (push (apply-partially (lambda (with without g)
                              (and
                               (every (lambda (tag)
+                                       (string-match-p
