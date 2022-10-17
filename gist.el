@@ -670,3 +670,4 @@ put it into `kill-ring'."
          (without (cadr lsts)))
     (push (apply-partially (lambda (with without g)
                              (and
+                              (every (lambda (tag)
