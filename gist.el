@@ -672,3 +672,4 @@ put it into `kill-ring'."
                              (and
                               (every (lambda (tag)
                                        (string-match-p
+                                        (format "#%s\\>" tag)
