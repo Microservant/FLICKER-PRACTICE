@@ -673,3 +673,4 @@ put it into `kill-ring'."
                               (every (lambda (tag)
                                        (string-match-p
                                         (format "#%s\\>" tag)
+                                        (oref g :description)))
