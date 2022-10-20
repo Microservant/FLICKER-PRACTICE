@@ -675,3 +675,4 @@ put it into `kill-ring'."
                                         (format "#%s\\>" tag)
                                         (oref g :description)))
                                      with)
+                              (not (some (lambda (tag)
