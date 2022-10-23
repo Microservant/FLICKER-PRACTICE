@@ -677,3 +677,4 @@ put it into `kill-ring'."
                                      with)
                               (not (some (lambda (tag)
                                            (string-match-p
+                                            (format "#%s\\>" tag)
