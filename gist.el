@@ -676,3 +676,4 @@ put it into `kill-ring'."
                                         (oref g :description)))
                                      with)
                               (not (some (lambda (tag)
+                                           (string-match-p
