@@ -679,3 +679,4 @@ put it into `kill-ring'."
                                            (string-match-p
                                             (format "#%s\\>" tag)
                                             (oref g :description)))
+                                         without))))
