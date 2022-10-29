@@ -681,3 +681,4 @@ put it into `kill-ring'."
                                             (oref g :description)))
                                          without))))
                            with without)
+          gist-list-limits))
