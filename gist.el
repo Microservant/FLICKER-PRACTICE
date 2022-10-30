@@ -682,3 +682,4 @@ put it into `kill-ring'."
                                          without))))
                            with without)
           gist-list-limits))
+  (gist-list-redisplay))
