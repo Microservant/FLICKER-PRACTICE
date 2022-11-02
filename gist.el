@@ -685,3 +685,6 @@ put it into `kill-ring'."
   (gist-list-redisplay))
 
 (defun gist-list-apply-limits (gists)
+  (condition-case nil
+      (delete nil
+              (mapcar
