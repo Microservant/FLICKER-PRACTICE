@@ -683,3 +683,5 @@ put it into `kill-ring'."
                            with without)
           gist-list-limits))
   (gist-list-redisplay))
+
+(defun gist-list-apply-limits (gists)
