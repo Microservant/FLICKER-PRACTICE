@@ -688,3 +688,5 @@ put it into `kill-ring'."
   (condition-case nil
       (delete nil
               (mapcar
+               (lambda (g)
+                 (when (every #'identity
