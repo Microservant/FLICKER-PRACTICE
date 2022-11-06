@@ -692,3 +692,4 @@ put it into `kill-ring'."
                  (when (every #'identity
                               (mapcar (lambda (f) (funcall f g)) gist-list-limits))
                    g))
+               gists))
