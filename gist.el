@@ -693,3 +693,4 @@ put it into `kill-ring'."
                               (mapcar (lambda (f) (funcall f g)) gist-list-limits))
                    g))
                gists))
+    (error gists)))
