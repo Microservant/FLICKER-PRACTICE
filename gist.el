@@ -694,3 +694,5 @@ put it into `kill-ring'."
                    g))
                gists))
     (error gists)))
+
+(defun gist-list-render (gists &optional background)
