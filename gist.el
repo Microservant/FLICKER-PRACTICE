@@ -699,3 +699,4 @@ put it into `kill-ring'."
   (gist-list-mode)
   (let ((entries (mapcar 'gist-tabulated-entry
                          (gist-list-apply-limits gists))))
+    (setq tabulated-list-entries entries)
