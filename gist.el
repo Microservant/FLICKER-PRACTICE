@@ -703,3 +703,4 @@ put it into `kill-ring'."
     (when (not (equal (length gists) (length entries)))
       (setq mode-name (format "Gists[%d/%d]" (length entries) (length gists)))))
   (tabulated-list-print)
+  (gist-list-tag-multi-files)
