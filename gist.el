@@ -698,3 +698,4 @@ put it into `kill-ring'."
 (defun gist-list-render (gists &optional background)
   (gist-list-mode)
   (let ((entries (mapcar 'gist-tabulated-entry
+                         (gist-list-apply-limits gists))))
