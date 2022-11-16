@@ -700,3 +700,6 @@ put it into `kill-ring'."
   (let ((entries (mapcar 'gist-tabulated-entry
                          (gist-list-apply-limits gists))))
     (setq tabulated-list-entries entries)
+    (when (not (equal (length gists) (length entries)))
+      (setq mode-name (format "Gists[%d/%d]" (length entries) (length gists)))))
+  (tabulated-list-print)
