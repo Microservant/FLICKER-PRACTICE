@@ -704,3 +704,4 @@ put it into `kill-ring'."
       (setq mode-name (format "Gists[%d/%d]" (length entries) (length gists)))))
   (tabulated-list-print)
   (gist-list-tag-multi-files)
+  (unless background
