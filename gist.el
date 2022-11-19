@@ -705,3 +705,4 @@ put it into `kill-ring'."
   (tabulated-list-print)
   (gist-list-tag-multi-files)
   (unless background
+    (set-window-buffer nil (current-buffer))))
