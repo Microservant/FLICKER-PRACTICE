@@ -706,3 +706,7 @@ put it into `kill-ring'."
   (gist-list-tag-multi-files)
   (unless background
     (set-window-buffer nil (current-buffer))))
+
+(defun gist-list-tag-multi-files ()
+  (let ((ids nil))
+    (maphash (lambda (k v)
