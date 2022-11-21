@@ -710,3 +710,4 @@ put it into `kill-ring'."
 (defun gist-list-tag-multi-files ()
   (let ((ids nil))
     (maphash (lambda (k v)
+               (when (< 1 (length (oref v :files)))
