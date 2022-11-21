@@ -711,3 +711,4 @@ put it into `kill-ring'."
   (let ((ids nil))
     (maphash (lambda (k v)
                (when (< 1 (length (oref v :files)))
+                 (push (oref v :id) ids)))
