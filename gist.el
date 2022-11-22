@@ -714,3 +714,4 @@ put it into `kill-ring'."
                  (push (oref v :id) ids)))
              gist-list-db)
     (save-excursion
+      (goto-char (point-min))
