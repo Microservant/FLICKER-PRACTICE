@@ -713,3 +713,4 @@ put it into `kill-ring'."
                (when (< 1 (length (oref v :files)))
                  (push (oref v :id) ids)))
              gist-list-db)
+    (save-excursion
