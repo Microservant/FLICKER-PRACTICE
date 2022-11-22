@@ -712,3 +712,4 @@ put it into `kill-ring'."
     (maphash (lambda (k v)
                (when (< 1 (length (oref v :files)))
                  (push (oref v :id) ids)))
+             gist-list-db)
