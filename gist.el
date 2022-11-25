@@ -715,3 +715,4 @@ put it into `kill-ring'."
              gist-list-db)
     (save-excursion
       (goto-char (point-min))
+      (while (not (eobp))
