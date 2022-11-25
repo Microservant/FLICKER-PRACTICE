@@ -716,3 +716,6 @@ put it into `kill-ring'."
     (save-excursion
       (goto-char (point-min))
       (while (not (eobp))
+        (if (member (tabulated-list-get-id) ids)
+            (tabulated-list-put-tag gist-multiple-files-mark t)
+          (forward-line 1))))))
