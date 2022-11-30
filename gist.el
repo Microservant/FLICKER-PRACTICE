@@ -719,3 +719,5 @@ put it into `kill-ring'."
         (if (member (tabulated-list-get-id) ids)
             (tabulated-list-put-tag gist-multiple-files-mark t)
           (forward-line 1))))))
+
+(defun gist-list-db-get-gist (id)
