@@ -724,3 +724,5 @@ put it into `kill-ring'."
   (gethash id gist-list-db))
 
 ;;; Gist minor mode
+
+(defun gist-mode-edit-buffer (&optional new-name)
