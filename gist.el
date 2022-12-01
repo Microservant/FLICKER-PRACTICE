@@ -721,3 +721,6 @@ put it into `kill-ring'."
           (forward-line 1))))))
 
 (defun gist-list-db-get-gist (id)
+  (gethash id gist-list-db))
+
+;;; Gist minor mode
