@@ -726,3 +726,4 @@ put it into `kill-ring'."
 ;;; Gist minor mode
 
 (defun gist-mode-edit-buffer (&optional new-name)
+  (when (or (buffer-modified-p) new-name)
