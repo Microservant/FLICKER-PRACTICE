@@ -728,3 +728,4 @@ put it into `kill-ring'."
 (defun gist-mode-edit-buffer (&optional new-name)
   (when (or (buffer-modified-p) new-name)
     (let* ((id gist-id)
+           (gist (gist-list-db-get-gist id))
