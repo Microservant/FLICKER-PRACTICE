@@ -729,3 +729,5 @@ put it into `kill-ring'."
   (when (or (buffer-modified-p) new-name)
     (let* ((id gist-id)
            (gist (gist-list-db-get-gist id))
+           (files (list
+                   (make-instance 'gh-gist-gist-file
