@@ -732,3 +732,4 @@ put it into `kill-ring'."
            (files (list
                    (make-instance 'gh-gist-gist-file
                                   :filename (or new-name gist-filename)
+                                  :content (buffer-string)))))
