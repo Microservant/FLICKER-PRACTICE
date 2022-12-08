@@ -731,3 +731,4 @@ put it into `kill-ring'."
            (gist (gist-list-db-get-gist id))
            (files (list
                    (make-instance 'gh-gist-gist-file
+                                  :filename (or new-name gist-filename)
