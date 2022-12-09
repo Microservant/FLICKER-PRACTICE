@@ -734,3 +734,4 @@ put it into `kill-ring'."
                                   :filename (or new-name gist-filename)
                                   :content (buffer-string)))))
       (when new-name
+        ;; remove old file as well
