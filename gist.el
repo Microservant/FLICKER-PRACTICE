@@ -735,3 +735,4 @@ put it into `kill-ring'."
                                   :content (buffer-string)))))
       (when new-name
         ;; remove old file as well
+        (add-to-list 'files
