@@ -736,3 +736,4 @@ put it into `kill-ring'."
       (when new-name
         ;; remove old file as well
         (add-to-list 'files
+                     (make-instance 'gh-gist-gist-file
