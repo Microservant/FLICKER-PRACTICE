@@ -737,3 +737,4 @@ put it into `kill-ring'."
         ;; remove old file as well
         (add-to-list 'files
                      (make-instance 'gh-gist-gist-file
+                                    :filename gist-filename
