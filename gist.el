@@ -738,3 +738,4 @@ put it into `kill-ring'."
         (add-to-list 'files
                      (make-instance 'gh-gist-gist-file
                                     :filename gist-filename
+                                    :content nil)))
