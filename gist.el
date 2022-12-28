@@ -742,3 +742,4 @@ put it into `kill-ring'."
       (let* ((g (clone gist
                        :files files))
              (api (gist-get-api t))
+             (resp (gh-gist-edit api g)))
