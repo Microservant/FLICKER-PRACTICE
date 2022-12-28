@@ -741,3 +741,4 @@ put it into `kill-ring'."
                                     :content nil)))
       (let* ((g (clone gist
                        :files files))
+             (api (gist-get-api t))
