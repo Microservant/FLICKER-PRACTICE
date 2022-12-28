@@ -739,3 +739,4 @@ put it into `kill-ring'."
                      (make-instance 'gh-gist-gist-file
                                     :filename gist-filename
                                     :content nil)))
+      (let* ((g (clone gist
