@@ -740,3 +740,4 @@ put it into `kill-ring'."
                                     :filename gist-filename
                                     :content nil)))
       (let* ((g (clone gist
+                       :files files))
