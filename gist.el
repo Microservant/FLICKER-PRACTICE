@@ -743,3 +743,4 @@ put it into `kill-ring'."
                        :files files))
              (api (gist-get-api t))
              (resp (gh-gist-edit api g)))
+        (gh-url-add-response-callback
