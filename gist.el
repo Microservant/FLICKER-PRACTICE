@@ -744,3 +744,5 @@ put it into `kill-ring'."
              (api (gist-get-api t))
              (resp (gh-gist-edit api g)))
         (gh-url-add-response-callback
+         resp
+         (lambda (gist)
