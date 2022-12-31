@@ -748,3 +748,4 @@ put it into `kill-ring'."
          (lambda (gist)
            (set-buffer-modified-p nil)
            (when new-name
+             (rename-buffer (replace-regexp-in-string "/.*$"
