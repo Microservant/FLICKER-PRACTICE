@@ -747,3 +747,4 @@ put it into `kill-ring'."
          resp
          (lambda (gist)
            (set-buffer-modified-p nil)
+           (when new-name
