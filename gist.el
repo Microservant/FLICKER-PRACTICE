@@ -750,3 +750,4 @@ put it into `kill-ring'."
            (when new-name
              (rename-buffer (replace-regexp-in-string "/.*$"
                                                       (concat "/" new-name)
+                                                      (buffer-name)))
