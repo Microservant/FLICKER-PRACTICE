@@ -749,3 +749,4 @@ put it into `kill-ring'."
            (set-buffer-modified-p nil)
            (when new-name
              (rename-buffer (replace-regexp-in-string "/.*$"
+                                                      (concat "/" new-name)
