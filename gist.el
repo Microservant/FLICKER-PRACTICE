@@ -751,3 +751,4 @@ put it into `kill-ring'."
              (rename-buffer (replace-regexp-in-string "/.*$"
                                                       (concat "/" new-name)
                                                       (buffer-name)))
+             (setq gist-filename new-name))
