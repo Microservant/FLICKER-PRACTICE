@@ -752,3 +752,5 @@ put it into `kill-ring'."
                                                       (concat "/" new-name)
                                                       (buffer-name)))
              (setq gist-filename new-name))
+           (let ((g (gist-list-db-get-gist (oref gist :id))))
+             (oset g :files (oref gist :files)))))))))
