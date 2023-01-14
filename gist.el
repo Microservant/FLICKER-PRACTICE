@@ -756,3 +756,4 @@ put it into `kill-ring'."
              (oset g :files (oref gist :files)))))))))
 
 (defun gist-mode-save-buffer ()
+  (interactive)
