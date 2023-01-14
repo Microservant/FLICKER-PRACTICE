@@ -754,3 +754,5 @@ put it into `kill-ring'."
              (setq gist-filename new-name))
            (let ((g (gist-list-db-get-gist (oref gist :id))))
              (oset g :files (oref gist :files)))))))))
+
+(defun gist-mode-save-buffer ()
