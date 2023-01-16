@@ -758,3 +758,6 @@ put it into `kill-ring'."
 (defun gist-mode-save-buffer ()
   (interactive)
   (gist-mode-edit-buffer))
+
+(defun gist-mode-write-file ()
+  (interactive)
