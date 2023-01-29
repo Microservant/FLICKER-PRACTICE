@@ -762,3 +762,7 @@ put it into `kill-ring'."
 (defun gist-mode-write-file ()
   (interactive)
   (let ((new-name (read-from-minibuffer "File name: " gist-filename)))
+    (gist-mode-edit-buffer new-name)))
+
+(defvar gist-mode-map
+  (let ((map (make-sparse-keymap)))
