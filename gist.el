@@ -766,3 +766,5 @@ put it into `kill-ring'."
 
 (defvar gist-mode-map
   (let ((map (make-sparse-keymap)))
+    (define-key map [remap save-buffer] 'gist-mode-save-buffer)
+    (define-key map [remap write-file] 'gist-mode-write-file)
