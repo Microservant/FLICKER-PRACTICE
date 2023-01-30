@@ -771,3 +771,5 @@ put it into `kill-ring'."
     map))
 
 (define-minor-mode gist-mode
+  "Minor mode for buffers containing gists files"
+  :lighter " gist"
