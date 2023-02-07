@@ -774,3 +774,5 @@ put it into `kill-ring'."
   "Minor mode for buffers containing gists files"
   :lighter " gist"
   :map 'gist-mode-map)
+
+;;; Dired integration
