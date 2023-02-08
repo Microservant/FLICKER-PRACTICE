@@ -776,3 +776,5 @@ put it into `kill-ring'."
   :map 'gist-mode-map)
 
 ;;; Dired integration
+
+(require 'dired)
