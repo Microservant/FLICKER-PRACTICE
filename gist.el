@@ -778,3 +778,5 @@ put it into `kill-ring'."
 ;;; Dired integration
 
 (require 'dired)
+
+(defun dired-do-gist (&optional private)
