@@ -780,3 +780,4 @@ put it into `kill-ring'."
 (require 'dired)
 
 (defun dired-do-gist (&optional private)
+  (interactive "P")
