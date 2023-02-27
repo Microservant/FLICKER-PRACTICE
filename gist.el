@@ -784,3 +784,6 @@ put it into `kill-ring'."
   (gist-files (dired-get-marked-files) private))
 
 (define-key dired-mode-map "@" 'dired-do-gist)
+
+(provide 'gist)
+;;; gist.el ends here
