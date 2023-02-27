@@ -782,3 +782,5 @@ put it into `kill-ring'."
 (defun dired-do-gist (&optional private)
   (interactive "P")
   (gist-files (dired-get-marked-files) private))
+
+(define-key dired-mode-map "@" 'dired-do-gist)
